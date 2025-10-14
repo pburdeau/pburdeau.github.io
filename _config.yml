@@ -2,18 +2,11 @@ title: "Philippine Burdeau"
 description: "Methane emissions • Produced gas composition • Geostatistics"
 url: "https://pburdeau.github.io"
 repository: "pburdeau/pburdeau.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
-locale: "en-US"
-plugins:
-  - jekyll-include-cache
+
 markdown: kramdown
 kramdown:
   input: GFM
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: false
+
+exclude:
+  - README.md
+  - .gitignore

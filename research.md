@@ -1,7 +1,10 @@
 ---
+layout: default
 title: "Research"
 permalink: /research/
 ---
+
+# Research
 
 ## Produced gas composition maps
 Kriging + non-linear modeling to estimate produced gas composition across U.S. basins. Reproducible code and interactive maps forthcoming.

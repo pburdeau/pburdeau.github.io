@@ -1,7 +1,10 @@
 ---
+layout: default
 title: "Publications"
 permalink: /publications/
 ---
+
+# Publications
 
 1. **High-resolution national mapping of produced gas composition substantially updates methane leakage impacts.**  
    Burdeau, Sherwin, Berman, Biraud, Brandt. *Nature Communications*, 2025 (in principle).

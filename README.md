@@ -1,7 +1,7 @@
-# Ivory + Inter Minimal Site (GitHub Pages + Minimal Mistakes)
+# Hannah-style Minimal Personal Site (No Theme)
 
-- `_config.yml` uses only `remote_theme` and the allowed `jekyll-include-cache` plugin.
-- `assets/css/main.scss` includes Inter from Google Fonts and an ivory background.
+- No Jekyll theme; custom layout and CSS for a clean centered hero + simple nav.
+- Ivory background, Inter font, oxblood/brass accents.
 - Pages: Home, Research, Publications, Talks, CV, Contact.
 
-To use, copy into your local `pburdeau.github.io` repo and push.
+Copy into your `pburdeau.github.io` repo and push.

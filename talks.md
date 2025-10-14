@@ -1,7 +1,10 @@
 ---
+layout: default
 title: "Talks"
 permalink: /talks/
 ---
+
+# Talks
 
 - AGU (New Orleans) — basin-scale inventories; produced gas composition.  
 - Stanford Energy Seminar — Intermittency in methane emissions (HMMs).  
