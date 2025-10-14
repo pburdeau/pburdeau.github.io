@@ -1,1 +1,1 @@
-Monochrome site v5 with right-side colored icons, Work nooks, dynamic age/PhD, and a minimalist leaf+research-circle favicon.
+v7: Reverted layout + open 'emoji-like' favicons (leaf default, also microscope and globe). Switch by editing _layouts/default.html link rel='icon'.
