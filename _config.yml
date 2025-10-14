@@ -1,6 +1,6 @@
 title: "Philippine Burdeau"
 description: "Research on methane emissions and produced gas composition"
-url: "" # e.g., https://your-username.github.io (set after you create the repo)
+url: "https://pburdeau.github.io"
 baseurl: "" # leave empty for user.github.io root
 theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -14,7 +14,7 @@ plugins:
 
 # Site-wide
 locale: en-US
-repository: your-username/your-username.github.io
+repository: pburdeau/pburdeau.github.io
 logo: /assets/img/avatar.jpg
 atom_feed:
   hide: true
