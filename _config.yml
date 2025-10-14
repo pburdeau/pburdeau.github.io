@@ -1,0 +1,84 @@
+title: "Philippine Burdeau"
+description: "Research on methane emissions and produced gas composition"
+url: "" # e.g., https://your-username.github.io (set after you create the repo)
+baseurl: "" # leave empty for user.github.io root
+theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-include-cache
+
+# Site-wide
+locale: en-US
+repository: your-username/your-username.github.io
+logo: /assets/img/avatar.jpg
+atom_feed:
+  hide: true
+
+# Author profile
+author:
+  name: "Philippine M. Burdeau"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Stanford PhD | Methane emissions, produced gas composition, geostatistics"
+  location: "Boston, MA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:pburdeau@stanford.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username"
+    - label: "Twitter/X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/your-handle"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/your-handle"
+
+# Minimal Mistakes theme options
+minimal_mistakes_skin: "default" # other options: air, aqua, contrast, dark, etc.
+search: true
+lunr:
+  search_within_pages: true
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Research"
+    url: /research/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Footer
+footer:
+  links:
+    - label: "Open Science"
+      icon: "fas fa-fw fa-flask"
+      url: "/open-science/"
