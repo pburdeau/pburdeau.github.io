@@ -1,30 +1,59 @@
 :root{ --bg:#F7F8F5; --ink:#111111; }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-body{ background:var(--bg); color:var(--ink); font-family:'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height:1.68; font-size:18px; }
+body{ background:var(--bg); color:var(--ink); font-family:'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height:1.68; font-size:18px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
 .site-hero{ padding:20px 18px 0; }
 .site-nav{ display:flex; gap:18px; justify-content:center; flex-wrap:wrap; }
 .site-nav a{ color:var(--ink); text-decoration:none; position:relative; padding-bottom:2px; }
 .site-nav a::after{ content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px; background: var(--ink); transform:scaleX(0); transform-origin:left; transition:.18s ease-out; }
 .site-nav a:hover::after{ transform:scaleX(1); }
 .page{ max-width:960px; margin:0 auto; padding:24px 18px 64px; }
-
-/* Profile (no right panel) */
-.profile{ display:grid; grid-template-columns: 120px 1fr; gap:22px; align-items:center; }
+/* Scroll progress bar */
+#scrollbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: #111;
+  z-index: 1000;
+}
+/* Back-to-top button */
+#toTop{
+  position: fixed; right: 18px; bottom: 18px;
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1.5px solid var(--ink); background: #fff; color: var(--ink);
+  display: none; align-items: center; justify-content: center;
+  transition: transform .12s ease-out, background .12s ease-out, color .12s ease-out;
+  z-index: 1000; cursor: pointer;
+}
+#toTop:hover{ transform: translateY(-1px); background: var(--ink); color: #fff; }
+/* Header grid: two columns */
+.header-grid{ display:grid; grid-template-columns: 320px 1fr; gap:24px; align-items:start; }
+@media (max-width: 860px){ .header-grid{ grid-template-columns: 1fr; } }
+/* Left: profile card */
+.profile{
+  display:grid; grid-template-columns: 120px 1fr; gap:16px; align-items:center;
+  padding:14px; border:1px solid rgba(0,0,0,.10); border-radius:14px; background:#fff;
+}
 .photo{ width:120px; height:120px; border-radius:50%; object-fit:cover; border:2px solid rgba(0,0,0,.10); }
-.identity h1{ font-size:28px; margin:0 0 6px; font-weight:600; }
-.identity p{ margin:0 0 10px 0; color:#2b2b2b; }
-
-/* Monochrome icons row */
-.social{ display:flex; gap:12px; margin-top:2px; }
+.identity h1{ font-size:34px; line-height:1.15; font-weight:800; letter-spacing:-0.01em; margin:0 0 10px; }
+.social{ display:flex; gap:12px; flex-wrap:wrap; }
 .icon{ width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center; border-radius:50%; border:1.5px solid var(--ink); background:transparent; transition: transform .12s ease-out, background .12s ease-out, color .12s ease-out; color: var(--ink); }
 .icon svg{ width:22px; height:22px; stroke: currentColor; fill: none; }
 .icon:hover{ transform: translateY(-1px); background: var(--ink); color: #fff; }
-
-.section-title{ font-size:22px; font-weight:600; margin:28px 0 12px; border-bottom:2px solid var(--ink); display:inline-block; padding-bottom:6px; }
+/* Right: topics card */
+.topics{
+  padding:14px; border:1px solid rgba(0,0,0,.10); border-radius:14px; background:#fff;
+}
+.section-title{ font-size:20px; font-weight:600; margin:0 0 8px; }
+.big-bullets{ margin:6px 0 0 18px; }
+.big-bullets li{ margin:4px 0; }
+/* Standard sections */
+.h2{ font-size:22px; font-weight:600; margin:28px 0 12px; border-bottom:2px solid var(--ink); display:inline-block; padding-bottom:6px; }
+/* Links */
 .page a{ color: var(--ink); text-decoration: none; border-bottom: 1px dotted rgba(0,0,0,.6); }
 .page a:hover{ border-bottom-style: solid; }
-
 /* Work nooks */
 .nooks { display:grid; grid-template-columns: 1fr; gap:18px; margin-top:12px; }
 @media (min-width: 860px){ .nooks{ grid-template-columns: repeat(3, 1fr); } }
@@ -34,6 +63,6 @@ body{ background:var(--bg); color:var(--ink); font-family:'Inter', -apple-system
 .nook:hover img{ filter:saturate(1); }
 .nook figcaption{ padding:10px 12px; font-size:14px; color:#333; border-top:1px solid rgba(0,0,0,.08); }
 .nook figcaption small{ display:block; color:#666; margin-top:4px; }
-
+/* Footer */
 .site-footer{ border-top:1px solid #ddd; background:var(--bg); }
 .footer-inner{ max-width:960px; margin:0 auto; padding:16px 18px 42px; color:#555; font-size:14px; text-align:center; }
