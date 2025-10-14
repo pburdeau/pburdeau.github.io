@@ -50,9 +50,10 @@ permalink: /
 </div>
 
 <div class="h2">Summary</div>
-<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Ana...
+<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em> (Italy).
+  I aim to combine my background in science with policy analysis to address environmental and sustainability issues, particularly methane emissions, gas composition, and natural gas leak detection.</p>
 
-<div class="h2">Work nooks</div>
+<div class="h2">Work Nooks</div>
 <div class="nooks">
   <figure class="nook">
     <a href="https://www.bostonathenaeum.org/" target="_blank" rel="noopener">
@@ -68,7 +69,7 @@ permalink: /
   </figure>
   <figure class="nook">
     <a href="https://www.bpl.org/" target="_blank" rel="noopener">
-      <img src="/assets/img/third-place.jpg" alt="Boston Public Library">
+      <img src="/assets/img/public_library_pic.jpg" alt="Boston Public Library">
     </a>
     <figcaption>Boston Public Library<small>grand tables</small></figcaption>
   </figure>
