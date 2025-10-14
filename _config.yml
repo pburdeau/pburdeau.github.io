@@ -3,24 +3,15 @@ description: "Methane emissions • Produced gas composition • Geostatistics"
 url: "https://pburdeau.github.io"
 repository: "pburdeau/pburdeau.github.io"
 
-# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 theme: minima
 plugins:
   - jekyll-include-cache
   - jekyll-feed
 
-# Appearance
 minimal_mistakes_skin: "default"
-search: true
+search: false
 
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /news/:name/
-
-# Navigation
 navigation:
   - title: "Home"
     url: /
@@ -28,20 +19,17 @@ navigation:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Software"
-    url: /software/
-  - title: "News"
-    url: /news/
+  - title: "Talks"
+    url: /talks/
   - title: "CV"
     url: /cv/
   - title: "Contact"
     url: /contact/
 
-# Author box
 author:
   name: "Philippine M. Burdeau"
   avatar: "/assets/img/avatar.jpg"
-  bio: "Stanford PhD → Boston. Methods for methane emissions and produced gas composition. I build clean, reproducible pipelines for geospatial inference."
+  bio: "Methods for methane emissions and produced gas composition; reproducible geospatial modeling."
   location: "Boston, MA"
   links:
     - label: "Email"

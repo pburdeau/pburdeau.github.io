@@ -1,16 +1,11 @@
-# Personified Academic Website (GitHub Pages + Minimal Mistakes)
+# Athenaeum Personal Site (Vintage Minimal)
 
-## Quick replace
-1. Replace your local repo folder with these files (or copy them over the top).
-2. Commit and push:
-   ```bash
-   git add .
-   git commit -m "Refresh site with personified design"
-   git push
-   ```
+## Replace your repo content
+Copy these files into your local `pburdeau.github.io` repo, then commit & push.
 
 ## Customize
-- `_config.yml`: update bio/links if needed.
-- `assets/img/hero.jpg` and `thumb_*.jpg`: swap in your own images.
-- `assets/img/avatar.jpg`: square headshot.
-- `assets/cv/Philippine_Burdeau_CV.pdf`: add your CV and ensure `cv.md` link works.
+- `index.md` intro text
+- `assets/img/avatar.jpg` headshot
+- `assets/cv/Philippine_Burdeau_CV.pdf` (add your CV)
+- pages: `research.md`, `publications.md`, `talks.md`, `contact.md`
+- palette/typography in `assets/css/main.scss`
