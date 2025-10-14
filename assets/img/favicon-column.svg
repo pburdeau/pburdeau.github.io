@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+  <defs>
+    <style>
+      .bg { fill: #111111; }
+      .fg { fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="12" class="bg"/>
+  <!-- classical column -->
+  <path class="fg" d="M18 24h28"/>
+  <path class="fg" d="M22 24v20m6-20v20m6-20v20m6-20v20"/>
+  <path class="fg" d="M16 46h32"/>
+</svg>

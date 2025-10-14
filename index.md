@@ -44,19 +44,39 @@ permalink: /
 
   <div class="spot">
     <img src="/assets/img/spotlight.jpg" alt="Research or personal spotlight image">
-    <small>Replace with a research figure, map crop, or personal sketch—this is where color lives.</small>
+    <small>Replace with a research figure, a Boston–Stanford collage, or a map crop—this is where color lives.</small>
   </div>
 </div>
 
 <h2 class="section-title">Summary</h2>
 <p>I am <span id="age">27</span> years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>.</p>
 
-<h2 class="section-title">Key Topics</h2>
-<ul class="big-bullets">
-  <li>Intermittency (HMMs) and detection‑aware estimation</li>
-  <li>Produced gas composition: kriging and non‑linear modeling</li>
-  <li>Reproducible pipelines; maps and visualization</li>
-</ul>
+<h2 class="section-title">Work nooks</h2>
+<p>I like quiet corners with books and daylight. A few regulars:</p>
+
+<div class="nooks">
+  <figure class="nook">
+    <img src="/assets/img/athenaeum.jpg" alt="Reading room at the Boston Athenæum">
+    <figcaption>
+      Boston Athenæum
+      <small>oak tables, whisper‑quiet; perfect for long reads</small>
+    </figcaption>
+  </figure>
+  <figure class="nook">
+    <img src="/assets/img/green-library.jpg" alt="Cecil H. Green Library (Bing Wing), Stanford">
+    <figcaption>
+      Green Library (Stanford)
+      <small>campus calm; a good place to think in full sentences</small>
+    </figcaption>
+  </figure>
+  <figure class="nook">
+    <img src="/assets/img/third-place.jpg" alt="Another favorite quiet workspace">
+    <figcaption>
+      A third place
+      <small>changes with the week—quiet, bright, close to coffee</small>
+    </figcaption>
+  </figure>
+</div>
 
 <script>
 (function(){

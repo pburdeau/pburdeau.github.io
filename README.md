@@ -1,1 +1,1 @@
-Monochrome site v3 with scholarly favicon, fixed Scholar link, and updated summary text.
+Monochrome v4: Work nooks, improved favicon (two options), dynamic age/year, Scholar fixed.
