@@ -10,4 +10,4 @@ permalink: /talks/
 - Stanford Energy Seminar — Intermittency in methane emissions (HMMs).  
 - DOE FECM workshop — Detection‑aware estimation under sparse observations.
 
-*Add slide links as you wish (PDF or Google Slides).*
+Add slide links as desired.

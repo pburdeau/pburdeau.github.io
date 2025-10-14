@@ -6,8 +6,13 @@ permalink: /research/
 
 # Research
 
-## Produced gas composition maps
-Kriging + non-linear modeling to estimate produced gas composition across U.S. basins. Reproducible code and interactive maps forthcoming.
-
-## Intermittent methane emissions (HMMs)
-ON/OFF state models with lognormal size processes and explicit detection models for sparse observations; applications to inventories and survey design.
+<div class="cols">
+  <div>
+    <h2>Produced gas composition maps</h2>
+    <p>Kriging + non-linear modeling across U.S. basins. Reproducible code and maps forthcoming.</p>
+  </div>
+  <div>
+    <h2>Intermittent methane emissions (HMMs)</h2>
+    <p>ON/OFF state models with detection under sparse observations; inventory applications.</p>
+  </div>
+</div>
