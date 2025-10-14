@@ -1,29 +1,47 @@
 title: "Philippine Burdeau"
-description: "Research on methane emissions and produced gas composition"
+description: "Methane emissions • Produced gas composition • Geostatistics"
 url: "https://pburdeau.github.io"
-baseurl: "" # leave empty for user.github.io root
-theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+repository: "pburdeau/pburdeau.github.io"
 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 plugins:
   - jekyll-include-cache
+  - jekyll-feed
 
-# Site-wide
-locale: en-US
-repository: pburdeau/pburdeau.github.io
-logo: /assets/img/avatar.jpg
-atom_feed:
-  hide: true
+# Appearance
+minimal_mistakes_skin: "default"
+search: true
 
-# Author profile
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Software"
+    url: /software/
+  - title: "News"
+    url: /news/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+
+# Author box
 author:
   name: "Philippine M. Burdeau"
   avatar: "/assets/img/avatar.jpg"
-  bio: "Stanford PhD | Methane emissions, produced gas composition, geostatistics"
+  bio: "Stanford PhD → Boston. Methods for methane emissions and produced gas composition. I build clean, reproducible pipelines for geospatial inference."
   location: "Boston, MA"
   links:
     - label: "Email"
@@ -34,51 +52,7 @@ author:
       url: "https://scholar.google.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-username"
-    - label: "Twitter/X"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/your-handle"
+      url: "https://github.com/pburdeau"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-handle"
-
-# Minimal Mistakes theme options
-minimal_mistakes_skin: "default" # other options: air, aqua, contrast, dark, etc.
-search: true
-lunr:
-  search_within_pages: true
-
-# Navigation
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Publications"
-    url: /publications/
-  - title: "Research"
-    url: /research/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "CV"
-    url: /cv/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-
-# Footer
-footer:
-  links:
-    - label: "Open Science"
-      icon: "fas fa-fw fa-flask"
-      url: "/open-science/"
+      url: "https://www.linkedin.com/in/"

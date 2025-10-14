@@ -1,27 +1,16 @@
-# Academic Website (GitHub Pages + Jekyll Minimal Mistakes)
+# Personified Academic Website (GitHub Pages + Minimal Mistakes)
 
-## Quick start
-1. Create a new public repo named `your-username.github.io` on GitHub.
-2. Upload all files from this folder (or push via git).
-3. In **Settings → Pages**, set **Build and deployment** to "GitHub Pages" using the `main` branch (root).
-4. Wait ~1–2 minutes for the site to build, then visit `https://your-username.github.io`.
+## Quick replace
+1. Replace your local repo folder with these files (or copy them over the top).
+2. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Refresh site with personified design"
+   git push
+   ```
 
 ## Customize
-- Edit `_config.yml`: set `url`, `repository`, your social links, and site title.
-- Replace `/assets/img/avatar.jpg` with a square headshot.
-- Add your CV PDF in `/assets/cv/` and link it in `cv.md`.
-- Add new pages by creating `.md` files with the front matter at the top.
-
-## Local preview (optional)
-If you want to build locally:
-```bash
-gem install bundler
-bundle add webrick
-bundle install
-bundle exec jekyll serve
-```
-Then open http://127.0.0.1:4000.
-
-## Notes
-- This uses the Minimal Mistakes theme via `remote_theme`, compatible with GitHub Pages.
-- Avoid unsupported plugins on GitHub Pages (e.g., `jekyll-scholar`). Render citations offline and paste static HTML.
+- `_config.yml`: update bio/links if needed.
+- `assets/img/hero.jpg` and `thumb_*.jpg`: swap in your own images.
+- `assets/img/avatar.jpg`: square headshot.
+- `assets/cv/Philippine_Burdeau_CV.pdf`: add your CV and ensure `cv.md` link works.

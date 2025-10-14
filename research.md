@@ -5,8 +5,7 @@ layout: single
 ---
 
 ### Produced gas composition maps
-We combine kriging and non-linear modeling to estimate produced gas composition across U.S. basins.
-We release reproducible code and interactive maps.
+Combining kriging and a non-linear model to estimate produced gas composition across U.S. basins. Reproducible code and interactive maps forthcoming.
 
-### Intermittency & HMMs for methane emissions
-We develop ON/OFF state-space models with lognormal emission size processes and detection models to handle sparse observations.
+### Intermittent methane emissions (HMMs)
+ON/OFF state models with lognormal size processes and explicit detection models to handle sparse observations. Applications to top-down inventories and survey design.
