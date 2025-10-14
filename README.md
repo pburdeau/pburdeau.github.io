@@ -1,11 +1,7 @@
-# Athenaeum Personal Site (Vintage Minimal)
+# Ivory + Inter Minimal Site (GitHub Pages + Minimal Mistakes)
 
-## Replace your repo content
-Copy these files into your local `pburdeau.github.io` repo, then commit & push.
+- `_config.yml` uses only `remote_theme` and the allowed `jekyll-include-cache` plugin.
+- `assets/css/main.scss` includes Inter from Google Fonts and an ivory background.
+- Pages: Home, Research, Publications, Talks, CV, Contact.
 
-## Customize
-- `index.md` intro text
-- `assets/img/avatar.jpg` headshot
-- `assets/cv/Philippine_Burdeau_CV.pdf` (add your CV)
-- pages: `research.md`, `publications.md`, `talks.md`, `contact.md`
-- palette/typography in `assets/css/main.scss`
+To use, copy into your local `pburdeau.github.io` repo and push.
