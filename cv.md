@@ -4,6 +4,6 @@ title: "CV"
 permalink: /cv/
 ---
 
-# CV
+<h1>CV</h1>
 
-[Download CV (PDF)](/assets/cv/Philippine_Burdeau_CV.pdf)
+<p><a href="/assets/cv/Philippine_Burdeau_CV.pdf">Download CV (PDF)</a></p>

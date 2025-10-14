@@ -4,10 +4,10 @@ title: "Talks"
 permalink: /talks/
 ---
 
-# Talks
+<h1>Talks</h1>
 
-- AGU (New Orleans) — basin-scale inventories; produced gas composition.  
-- Stanford Energy Seminar — Intermittency in methane emissions (HMMs).  
-- DOE FECM workshop — Detection‑aware estimation under sparse observations.
-
-Add slide links as desired.
+<ul>
+  <li>AGU (New Orleans) — basin‑scale inventories; produced gas composition.</li>
+  <li>Stanford Energy Seminar — Intermittency in methane emissions (HMMs).</li>
+  <li>DOE FECM workshop — Detection‑aware estimation under sparse observations.</li>
+</ul>

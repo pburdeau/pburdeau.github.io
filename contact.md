@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-# Contact
+<h1>Contact</h1>
 
-For research inquiries or collaborations: <a href="mailto:pburdeau@stanford.edu">pburdeau@stanford.edu</a>  
-Boston-based.
+<p>Email: <a href="mailto:pburdeau@stanford.edu">pburdeau@stanford.edu</a><br>
+Boston‑based.</p>
