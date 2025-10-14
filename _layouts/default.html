@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }} · {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="icon" href="/assets/img/favicon-leaf.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/img/favicon-globe.svg" type="image/svg+xml">
     <link href="/assets/css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="site-hero">
@@ -24,15 +24,46 @@
         </nav>
       </div>
     </header>
-
+    <div id="scrollbar"></div>
     <main class="page">
       {{ content }}
     </main>
-
+    <button id="toTop" aria-label="Back to top" title="Back to top">↑</button>
     <footer class="site-footer">
       <div class="footer-inner">
         <span>© {{ "now" | date: "%Y" }} {{ site.title }}</span>
       </div>
     </footer>
+    <script>
+    (function(){
+      const bar = document.getElementById('scrollbar');
+      if (!bar) return;
+      function lerp(a,b,t){ return a + (b-a)*t; }
+      function onScroll(){
+        const sh = document.documentElement.scrollHeight;
+        const ch = document.documentElement.clientHeight;
+        const st = document.documentElement.scrollTop || document.body.scrollTop || 0;
+        const t = Math.max(0, Math.min(1, st / (sh - ch)));
+        const r = Math.round(lerp(17, 217, t)); 
+        const g = Math.round(lerp(17, 119, t));
+        const b = Math.round(lerp(17, 6, t));
+        bar.style.width = (t * 100) + '%';
+        bar.style.background = `rgb(${r}, ${g}, ${b})`;
+      }
+      window.addEventListener('scroll', onScroll, {passive:true});
+      window.addEventListener('resize', onScroll);
+      onScroll();
+
+      const btn = document.getElementById('toTop');
+      if (!btn) return;
+      function toggle(){
+        const y = window.scrollY || document.documentElement.scrollTop;
+        btn.style.display = y > 600 ? 'flex' : 'none';
+      }
+      btn.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+      window.addEventListener('scroll', toggle, {passive:true});
+      toggle();
+    })();
+    </script>
   </body>
 </html>
