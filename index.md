@@ -10,25 +10,32 @@ permalink: /
     <h1>Philippine Burdeau</h1>
     <p><span id="phdYear">PhD student</span> working with <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Prof. Adam Brandt</a> at Stanford.</p>
     <div class="social">
-      <a class="icon oxblood" href="https://scholar.google.com/" aria-label="Google Scholar" target="_blank" rel="noopener">
+      <!-- Scholar -->
+      <a class="icon oxblood" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M4 19.5V6.8a2 2 0 0 1 2-2h12"/>
           <path d="M6 18.5a2 2 0 0 1 2-2h12v3H8a2 2 0 0 1-2-2Z"/>
           <path d="M6 6.5h12v8H8a2 2 0 0 1-2-2V6.5Z"/>
         </svg>
       </a>
-      <a class="icon sage" href="https://www.linkedin.com/in/" aria-label="LinkedIn" target="_blank" rel="noopener">
+
+      <!-- LinkedIn -->
+      <a class="icon sage" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
           <rect x="2" y="9" width="4" height="12" rx="1"/>
           <circle cx="4" cy="5" r="2"/>
         </svg>
       </a>
+
+      <!-- GitHub -->
       <a class="icon charcoal" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3 0 6-1.5 6-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2S17.8 2.7 15 4a12.1 12.1 0 0 0-6 0C6.3 2.7 3.3 2.3 3.3 2.3a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 1.9 8c0 4.4 3 6 6 6a3.4 3.4 0 0 0-.9 2.6V22"/>
         </svg>
       </a>
+
+      <!-- Email -->
       <a class="icon brass" href="mailto:pburdeau@stanford.edu" aria-label="Email">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/>
@@ -36,6 +43,7 @@ permalink: /
         </svg>
       </a>
     </div>
+
   </div>
 
   <div class="spot">
