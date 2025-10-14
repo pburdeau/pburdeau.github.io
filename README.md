@@ -1,1 +1,1 @@
-Personal landing pack with photo, Summary, key topics, and spotlight image.
+Landing pack v2 with Summary, dynamic age/year, vintage social icons, and non-headshot favicon.
