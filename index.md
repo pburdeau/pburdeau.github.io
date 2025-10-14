@@ -11,16 +11,16 @@ permalink: /
       <h1>Philippine Burdeau</h1>
       <div class="social">
         <a class="icon" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Google_Scholar_logo.svg" alt="Google Scholar Icon">
+          <img src="/assets/img/google-scholar-logo.svg" alt="Google Scholar Icon">
         </a>
         <a class="icon" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2013.png" alt="LinkedIn Icon">
+          <img src="/assets/img/linkedin-logo.svg" alt="LinkedIn Icon">
         </a>
         <a class="icon" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Octicons-mark-github.svg" alt="GitHub Icon">
+          <img src="/assets/img/github-logo.svg" alt="GitHub Icon">
         </a>
         <a class="icon" href="mailto:pburdeau@stanford.edu" aria-label="Email">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Email_icon.svg" alt="Email Icon">
+          <img src="/assets/img/email-logo.svg" alt="Email Icon">
         </a>
       </div>
     </div>
@@ -36,7 +36,8 @@ permalink: /
 </div>
 
 <div class="h2">Summary</div>
-<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>.</p>
+<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocc...
+  I aim to combine my background in science with policy analysis to address environmental and sustainability issues, particularly methane emissions, gas composition, and natural gas leak detection.</p>
 
 <div class="h2">Work Nooks</div>
 <div class="nooks">
