@@ -10,18 +10,10 @@ permalink: /
     <div class="identity">
       <h1>Philippine Burdeau</h1>
       <div class="social">
-        <a class="icon" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener">
-          <img src="/assets/img/google-scholar-logo.svg" alt="Google Scholar Icon">
-        </a>
-        <a class="icon" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener">
-          <img src="/assets/img/linkedin-logo.svg" alt="LinkedIn Icon">
-        </a>
-        <a class="icon" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener">
-          <img src="/assets/img/github-logo.svg" alt="GitHub Icon">
-        </a>
-        <a class="icon" href="mailto:pburdeau@stanford.edu" aria-label="Email">
-          <img src="/assets/img/email-logo.svg" alt="Email Icon">
-        </a>
+        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"></a>
+        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"></a>
+        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"></a>
+        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"></a>
       </div>
     </div>
   </div>
@@ -55,7 +47,7 @@ permalink: /
   </figure>
   <figure class="nook">
     <a href="https://www.bpl.org/" target="_blank" rel="noopener">
-      <img src="/assets/img/public_library_pic.jpg" alt="Boston Public Library">
+      <img src="/assets/img/third-place.jpg" alt="Boston Public Library">
     </a>
     <figcaption>Boston Public Library<small>grand tables</small></figcaption>
   </figure>
