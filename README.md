@@ -1,1 +1,1 @@
-Landing pack v2 with Summary, dynamic age/year, vintage social icons, and non-headshot favicon.
+Monochrome site v3 with scholarly favicon, fixed Scholar link, and updated summary text.

@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="28" fill="#6E2E2A"/><text x="32" y="40" text-anchor="middle" fill="#F7F8F5" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="28">PB</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+  <defs>
+    <style>
+      .ink { fill: #111111; }
+      .none { fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="12" class="ink"/>
+  <!-- open book -->
+  <path class="none" d="M18 42V22c6 0 10-2 14-4 4 2 8 4 14 4v20"/>
+  <path class="none" d="M18 22c6 0 10 2 14 4 4-2 8-4 14-4"/>
+  <!-- laurels -->
+  <path class="none" d="M14 46c2-2 4-4 5-8"/>
+  <path class="none" d="M50 46c-2-2-4-4-5-8"/>
+</svg>
