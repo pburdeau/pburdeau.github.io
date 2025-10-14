@@ -37,15 +37,15 @@ body{ background:var(--bg); color:var(--ink); font-family:'Poppins', -apple-syst
 }
 .photo{ width:120px; height:120px; border-radius:50%; object-fit:cover; border:2px solid rgba(0,0,0,.10); }
 .identity h1{ font-size:34px; line-height:1.15; font-weight:800; letter-spacing:-0.01em; margin:0 0 10px; }
-/* Social icons: simple colored balls with hover effects and names showing only on hover */
+/* Social icons: simple colored balls with hover effects and names showing very small below the ball */
 .social{ display:flex; gap:8px; justify-content:flex-start; flex-wrap:wrap; margin-top:10px; }
 .icon{ width:30px; height:30px; display:inline-flex; align-items:center; justify-content:center; border-radius:50%; background:transparent; transition: transform .12s ease-out, background .12s ease-out, color .12s ease-out; color: var(--ink); font-size: 0.8em; position:relative; }
 .icon.linkedin{ background-color: #0077B5; }
 .icon.github{ background-color: #A0A0A0; }
 .icon.scholar{ background-color: #000000; }
 .icon.email{ background-color: #6A4E23; }
-/* Hide the text by default and show on hover */
-.icon span{ display:none; font-size:0.8em; position:absolute; top:100%; left:50%; transform:translateX(-50%); padding:4px 8px; background-color:rgba(0,0,0,.8); color:#fff; border-radius:5px; }
+/* Name appears very small under the icon */
+.icon span{ display:none; font-size:0.6em; position:absolute; top:100%; left:50%; transform:translateX(-50%); padding:4px 8px; color:#000; }
 .icon:hover{ transform: translateY(-1px); background: var(--ink); color: #fff; }
 .icon:hover span{ display:block; }
 /* Right: topics card */
