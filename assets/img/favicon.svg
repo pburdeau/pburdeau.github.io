@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
   <defs>
     <style>
-      .ink { fill: #111111; }
-      .none { fill: none; stroke: #111111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .bg{ fill:#111111; }
+      .st{ fill:none; stroke:#F7F8F5; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
     </style>
   </defs>
-  <rect x="4" y="4" width="56" height="56" rx="12" class="ink"/>
-  <path class="none" d="M18 42V22c6 0 10-2 14-4 4 2 8 4 14 4v20"/>
-  <path class="none" d="M18 22c6 0 10 2 14 4 4-2 8-4 14-4"/>
-  <path class="none" d="M14 46c2-2 4-4 5-8"/>
-  <path class="none" d="M50 46c-2-2-4-4-5-8"/>
+  <rect x="4" y="4" width="56" height="56" rx="12" class="bg"/>
+  <!-- research circle -->
+  <circle cx="40" cy="24" r="8" class="st"/>
+  <!-- simple leaf -->
+  <path d="M14 40c10-2 18-2 24 6-8 2-16 2-24-6z" class="st"/>
+  <path d="M18 38c4 4 6 8 8 12" class="st"/>
 </svg>
