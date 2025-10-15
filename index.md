@@ -3,7 +3,6 @@ layout: default
 title: "Home"
 permalink: /
 ---
-
 <div class="header-grid">
   <div class="profile">
     <img class="photo" src="/assets/img/avatar.jpg" alt="Portrait of Philippine Burdeau">
@@ -20,16 +19,18 @@ permalink: /
   <div class="topics">
     <div class="section-title">Key Topics</div>
     <ul class="big-bullets">
-      <li>Intermittency (HMMs) and detection‑aware estimation</li>
-      <li>Produced gas composition: kriging and non‑linear modeling</li>
-      <li>Reproducible pipelines; maps and visualization</li>
+      <li>Optimal estimation from heterogeneous measurements</li>
+      <li>Intermittent emissions modeling and detection</li>
+      <li>Natural gas composition prediction and geostatistics</li>
     </ul>
   </div>
 </div>
-
-
 <div class="h2">Summary</div>
-<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>. I aim to combine my background in science with policy analysis to address environmental and sustainability issues, particularly methane emissions, gas composition, and natural gas leak detection.</p>
+<p>I am a <strong>4th‑year PhD candidate</strong> in Energy Resources Engineering at Stanford University, working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group. Originally from France, I studied applied mathematics and physics at <em>École Polytechnique</em> and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>.</p>
+
+<p>My research focuses on <strong>methane emissions estimation</strong>, developing statistical models that optimally combine measurements from diverse sources with varying noise levels, temporal and spatial resolutions, and emplacement. A core challenge is handling <strong>intermittent emissions</strong> that are non-uniformly distributed across space and time. I also model and predict <strong>natural gas composition</strong> and participate in <strong>controlled release experiments</strong> for methane detection and quantification.</p>
+
+<p>Graduating in June 2026, I aim to work in the tech and sustainability sector, particularly on <strong>satellite-based environmental monitoring</strong> and detection systems.</p>
 
 <div class="h2">Work Nooks</div>
 <div class="nooks">
