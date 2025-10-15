@@ -54,9 +54,10 @@ body {
     transition: color 0.2s ease-in-out;
 }
 
-/* Hover effect for menu items */
+
+/* Menu Item Hover Color (brownish, same as progress bar) */
 .site-nav a:hover {
-    color: #ff5722;
+    color: #111; /* Dark brownish color for menu hover */
 }
 
 /* Progress bar positioning */
