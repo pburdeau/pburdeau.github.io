@@ -34,24 +34,25 @@ body {
     background-color: var(--bg);
 }
 
-/* Header name in top left */
-.header-name {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--ink);
-    padding: 12px 18px 0;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 /* Sticky position for the entire header menu */
 .site-nav {
     display: flex;
     gap: 18px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 16px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Added subtle shadow for depth */
+    padding: 16px 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header name in navigation bar */
+.header-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-right: auto;
 }
 
 /* Ensure menu items stay in place while scrolling */
@@ -167,11 +168,11 @@ body {
 
 /* Social note styling */
 .social-note {
-    font-size: 13px;
-    color: #666;
-    margin-top: 8px;
+    font-size: 12px;
+    color: #888;
+    margin-top: 6px;
     font-style: italic;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .h2, .section-title {
