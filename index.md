@@ -19,9 +19,9 @@ permalink: /
   <div class="topics">
     <div class="section-title">Key Topics</div>
     <ul class="big-bullets">
-      <li>Statistical modeling and optimal estimation</li>
+      <li>Statistical modeling</li>
       <li>Environmental monitoring and detection systems</li>
-      <li>Geostatistics and spatial analysis</li>
+      <li>Geostatistics</li>
     </ul>
   </div>
 </div>
