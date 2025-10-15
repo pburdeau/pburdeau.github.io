@@ -31,10 +31,10 @@ body {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-color: transparent; /* Transparent background */
-    z-index: 1000; /* Ensure it stays on top */
+    background-color: var(--bg); /* Changed from transparent to match page background */
+    z-index: 1000;
     padding: 16px 0;
-    box-shadow: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Added subtle shadow for depth */
 }
 
 /* Ensure menu items stay in place while scrolling */
@@ -54,20 +54,20 @@ body {
 
 /* Progress bar positioning */
 #scrollbar {
-    position: sticky;
-    top: 56px; /* Just below the sticky menu (adjusted for height) */
+    position: fixed; /* Changed from sticky to fixed */
+    top: 56px;
     left: 0;
     height: 2px;
     width: 0;
     background: #111;
-    z-index: 999; /* Below sticky menu */
+    z-index: 999;
 }
 
 /* Adjust page content padding so it doesn't overlap with the sticky menu */
 .page {
     max-width: 960px;
     margin: 0 auto;
-    padding: 80px 18px 64px; /* Adjusted padding to account for sticky menu */
+    padding: 80px 18px 64px;
 }
 
 /* Profile and social media */
