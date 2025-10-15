@@ -61,14 +61,15 @@ body {
 
 /* Progress bar positioning */
 #scrollbar {
-    position: fixed; /* Changed from sticky to fixed */
-    top: 56px;
+    position: absolute; /* Changed to absolute to follow content scroll */
+    top: 56px; /* Just below the sticky menu */
     left: 0;
     height: 2px;
-    width: 0;
+    width: 0; /* Initially 0 width */
     background: #111;
     z-index: 999;
 }
+
 
 /* Adjust page content padding so it doesn't overlap with the sticky menu */
 .page {
