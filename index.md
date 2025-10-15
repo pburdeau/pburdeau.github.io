@@ -10,10 +10,10 @@ permalink: /
     <div class="identity">
       <h1>Philippine Burdeau</h1>
       <div class="social">
-        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"></a>
-        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"></a>
-        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"></a>
-        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"></a>
+        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"><span>LinkedIn</span></a>
+        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"><span>GitHub</span></a>
+        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"><span>Google Scholar</span></a>
+        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"><span>Email</span></a>
       </div>
     </div>
   </div>
@@ -26,6 +26,7 @@ permalink: /
     </ul>
   </div>
 </div>
+
 
 <div class="h2">Summary</div>
 <p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>. I aim to combine my background in science with policy analysis to address environmental and sustainability issues, particularly methane emissions, gas composition, and natural gas leak detection.</p>
