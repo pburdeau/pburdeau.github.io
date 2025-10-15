@@ -1,222 +1,54 @@
-:root{ 
-    --bg:#F7F8F5; 
-    --ink:#111111; 
-}
+---
+layout: default
+title: "Home"
+permalink: /
+---
 
-* {
-    box-sizing: border-box;
-}
+<div class="header-grid">
+  <div class="profile">
+    <img class="photo" src="/assets/img/avatar.jpg" alt="Portrait of Philippine Burdeau">
+    <div class="identity">
+      <h1>Philippine Burdeau</h1>
+      <div class="social">
+        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"><span>LinkedIn</span></a>
+        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"><span>GitHub</span></a>
+        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"><span>Google Scholar</span></a>
+        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"><span>Email</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="topics">
+    <div class="section-title">Key Topics</div>
+    <ul class="big-bullets">
+      <li>Intermittency (HMMs) and detection‑aware estimation</li>
+      <li>Produced gas composition: kriging and non‑linear modeling</li>
+      <li>Reproducible pipelines; maps and visualization</li>
+    </ul>
+  </div>
+</div>
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background: var(--bg);
-    color: var(--ink);
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.68;
-    font-size: 18px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-}
+<div class="h2">Summary</div>
+<p>I am 27 years old and a <strong><span id="phdYearText">4th‑year PhD student</span></strong> in Energy Resources Engineering (since 2022), working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group at Stanford. I am originally from France. Before Stanford, I studied applied mathematics and physics at <em>École Polytechnique</em> (France) and completed an MSc in <em>Politics & Policy Analysis</em> at <em>Bocconi University</em>. I aim to combine my background in science with policy analysis to address environmental and sustainability issues, particularly methane emissions, gas composition, and natural gas leak detection.</p>
 
-/* Make header sticky and without white background */
-.site-nav {
-    display: flex;
-    gap: 18px;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    background-color: transparent; /* No white background */
-    z-index: 1000;
-    padding: 16px 0;
-    box-shadow: none; /* Keep it transparent, no shadow */
-}
-
-/* Scroll progress bar */
-#scrollbar {
-    position: sticky;
-    top: 0; /* Position it right below the sticky menu */
-    left: 0;
-    height: 2px;
-    width: 0;
-    background: #111;
-    z-index: 1000; /* Ensure it's above other content */
-}
-
-/* Rest of the styles (no changes here) */
-.page {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 24px 18px 64px;
-}
-
-.site-nav a {
-    color: var(--ink);
-    text-decoration: none;
-    position: relative;
-    padding-bottom: 2px;
-    font-weight: 600;
-    transition: color 0.2s ease-in-out;
-}
-
-.site-nav a:hover {
-    color: #ff5722;
-}
-
-.topics {
-    padding: 14px;
-    background: none;
-}
-
-.profile {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 16px;
-    align-items: center;
-    padding: 14px;
-    background: none;
-}
-
-.photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid rgba(0, 0, 0, .10);
-}
-
-.identity h1 {
-    font-size: 34px;
-    line-height: 1.15;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    margin: 0 0 10px;
-}
-
-.social {
-    display: flex;
-    gap: 8px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: transparent;
-    transition: transform .12s ease-out, background .12s ease-out, color .12s ease-out;
-    color: var(--ink);
-    font-size: 0.8em;
-    position: relative;
-}
-
-.icon.linkedin { background-color: #0077B5; }
-.icon.github { background-color: #A0A0A0; }
-.icon.scholar { background-color: #000000; }
-.icon.email { background-color: #6A4E23; }
-
-.icon span {
-    display: none;
-    font-size: 0.6em;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 4px 8px;
-    color: #000;
-    white-space: nowrap;
-}
-
-.icon:hover {
-    transform: translateY(-1px);
-    background: var(--ink);
-    color: #fff;
-}
-
-.icon:hover span {
-    display: block;
-}
-
-.h2 {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 28px 0 12px;
-    border-bottom: 2px solid var(--ink);
-    display: inline-block;
-    padding-bottom: 6px;
-}
-
-.nooks {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 18px;
-    margin-top: 12px;
-}
-
-@media (min-width: 860px) {
-    .nooks {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-.nook {
-    background: none;
-    border: 1px solid rgba(0, 0, 0, .12);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform .12s ease-out, box-shadow .12s ease-out;
-}
-
-.nook:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
-}
-
-.nook img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    filter: saturate(0);
-    transition: filter .25s ease-out;
-}
-
-.nook:hover img {
-    filter: saturate(1);
-}
-
-.nook figcaption {
-    padding: 10px 12px;
-    font-size: 14px;
-    color: #333;
-    border-top: 1px solid rgba(0, 0, 0, .08);
-}
-
-.nook figcaption small {
-    display: block;
-    color: #666;
-    margin-top: 4px;
-}
-
-.site-footer {
-    border-top: 1px solid #ddd;
-    background: var(--bg);
-}
-
-.footer-inner {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 16px 18px 42px;
-    color: #555;
-    font-size: 14px;
-    text-align: center;
-}
+<div class="h2">Work Nooks</div>
+<div class="nooks">
+  <figure class="nook">
+    <a href="https://www.bostonathenaeum.org/" target="_blank" rel="noopener">
+      <img src="/assets/img/athenaeum.jpg" alt="Boston Athenæum reading room">
+    </a>
+    <figcaption>Boston Athenæum<small>quiet, books, daylight</small></figcaption>
+  </figure>
+  <figure class="nook">
+    <a href="https://library.stanford.edu/green" target="_blank" rel="noopener">
+      <img src="/assets/img/green-library.jpg" alt="Cecil H. Green Library, Stanford University">
+    </a>
+    <figcaption>Green Library (Stanford)<small>campus calm</small></figcaption>
+  </figure>
+  <figure class="nook">
+    <a href="https://www.bpl.org/" target="_blank" rel="noopener">
+      <img src="/assets/img/third-place.jpg" alt="Boston Public Library">
+    </a>
+    <figcaption>Boston Public Library<small>grand tables</small></figcaption>
+  </figure>
+</div>
