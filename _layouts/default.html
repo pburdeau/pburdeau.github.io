@@ -15,6 +15,7 @@
     <header class="site-hero">
       <div class="hero-inner">
         <nav class="site-nav">
+          <button class="menu-toggle" aria-label="Toggle menu">☰</button>
           <div class="header-name">Philippine Burdeau</div>
           <div class="nav-links">
             <a href="/">Home</a>
@@ -38,6 +39,18 @@
       </div>
     </footer>
     <script>
+    // Menu toggle for mobile
+    (function(){
+      const toggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      if (toggle && navLinks) {
+        toggle.addEventListener('click', function() {
+          navLinks.classList.toggle('active');
+          this.classList.toggle('active');
+        });
+      }
+    })();
+    
     (function(){
       const bar = document.getElementById('scrollbar');
       if (!bar) return;
