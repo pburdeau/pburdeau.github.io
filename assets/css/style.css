@@ -23,16 +23,23 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+/* Fix for parent containers blocking sticky nav */
+.site-hero {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.hero-inner {
+    background-color: var(--bg);
+}
+
 /* Sticky position for the entire header menu */
 .site-nav {
     display: flex;
     gap: 18px;
     justify-content: center;
     flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    background-color: var(--bg); /* Changed from transparent to match page background */
-    z-index: 1000;
     padding: 16px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Added subtle shadow for depth */
 }
