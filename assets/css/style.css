@@ -23,7 +23,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Make header sticky without background */
+/* Sticky Header: Menu stays in place */
 .site-nav {
     display: flex;
     gap: 18px;
@@ -31,31 +31,14 @@ body {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-color: transparent; /* Transparent background */
-    z-index: 1000; /* Ensure it stays above other content */
+    background-color: transparent;
+    z-index: 1000; /* Ensure it's on top of other elements */
     padding: 16px 0;
-    box-shadow: none; /* Remove shadow */
+    box-shadow: none;
+    background-color: transparent; /* No background color */
 }
 
-/* Scroll progress bar: stays under the menu */
-#scrollbar {
-    position: sticky;
-    top: 48px; /* Adjusted to position it just below the menu */
-    left: 0;
-    height: 2px;
-    width: 0;
-    background: #111;
-    z-index: 999; /* Ensure it's below the sticky menu */
-}
-
-/* Ensure page content doesn't overlap with the sticky menu */
-.page {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 80px 18px 64px; /* Adjusted padding to account for sticky menu */
-}
-
-/* Other styles remain unchanged */
+/* Sticky Menu Items */
 .site-nav a {
     color: var(--ink);
     text-decoration: none;
@@ -65,10 +48,30 @@ body {
     transition: color 0.2s ease-in-out;
 }
 
+/* Menu Items Hover Effect */
 .site-nav a:hover {
     color: #ff5722;
 }
 
+/* Scroll progress bar */
+#scrollbar {
+    position: sticky;
+    top: 48px; /* Adjusted to position it just below the sticky menu */
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #111;
+    z-index: 999;
+}
+
+/* Ensure page content doesn't overlap with the sticky menu */
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px 18px 64px; /* Adjusted padding to account for sticky menu */
+}
+
+/* Rest of the styles */
 .profile {
     display: grid;
     grid-template-columns: 120px 1fr;
