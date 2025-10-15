@@ -7,13 +7,13 @@ permalink: /
   <div class="profile">
     <img class="photo" src="/assets/img/avatar.jpg" alt="Portrait of Philippine Burdeau">
     <div class="identity">
+      <p class="social-note">Links ↓</p>
       <div class="social">
         <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"><span>LinkedIn</span></a>
         <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"><span>GitHub</span></a>
         <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"><span>Google Scholar</span></a>
         <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"><span>Email</span></a>
       </div>
-      <p class="social-note">↑ Links</p>
     </div>
   </div>
   <div class="topics">
