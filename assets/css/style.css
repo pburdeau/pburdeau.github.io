@@ -23,22 +23,23 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Sticky Header: Menu stays in place */
+/* Apply sticky position to header and navigation */
 .site-nav {
     display: flex;
     gap: 18px;
     justify-content: center;
     flex-wrap: wrap;
+    position: -webkit-sticky; /* For Safari */
     position: sticky;
-    top: 0;
-    background-color: transparent;
-    z-index: 1000; /* Ensure it's on top of other elements */
+    top: 0; /* Stick to the top */
+    background-color: transparent; /* No background */
+    z-index: 1000; /* Ensure it stays on top */
     padding: 16px 0;
     box-shadow: none;
-    background-color: transparent; /* No background color */
+    background-color: transparent; /* Keep the background transparent */
 }
 
-/* Sticky Menu Items */
+/* Ensure menu items stay in place while scrolling */
 .site-nav a {
     color: var(--ink);
     text-decoration: none;
@@ -48,30 +49,30 @@ body {
     transition: color 0.2s ease-in-out;
 }
 
-/* Menu Items Hover Effect */
+/* Hover effect for menu items */
 .site-nav a:hover {
     color: #ff5722;
 }
 
-/* Scroll progress bar */
+/* Progress bar positioning */
 #scrollbar {
     position: sticky;
-    top: 48px; /* Adjusted to position it just below the sticky menu */
+    top: 48px; /* Just below the sticky menu */
     left: 0;
     height: 2px;
     width: 0;
     background: #111;
-    z-index: 999;
+    z-index: 999; /* Below sticky menu */
 }
 
-/* Ensure page content doesn't overlap with the sticky menu */
+/* Adjust page content padding so it doesn't overlap with the sticky menu */
 .page {
     max-width: 960px;
     margin: 0 auto;
-    padding: 80px 18px 64px; /* Adjusted padding to account for sticky menu */
+    padding: 80px 18px 64px; /* Adjust padding to account for sticky menu */
 }
 
-/* Rest of the styles */
+/* Profile and social media */
 .profile {
     display: grid;
     grid-template-columns: 120px 1fr;
