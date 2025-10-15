@@ -13,7 +13,7 @@ permalink: /
         <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"><span>Google Scholar</span></a>
         <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"><span>Email</span></a>
       </div>
-      <p class="social-note">Links ↓</p>
+      <p class="social-note">↑ Links</p>
     </div>
   </div>
   <div class="topics">
