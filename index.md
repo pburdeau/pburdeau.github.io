@@ -10,10 +10,10 @@ permalink: /
     <div class="identity">
       <h1>Philippine Burdeau</h1>
       <div class="social">
-        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn">LinkedIn</a>
-        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub">GitHub</a>
-        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar">Google Scholar</a>
-        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email">Email</a>
+        <a class="icon linkedin" href="https://www.linkedin.com/in/philippine-burdeau/" aria-label="LinkedIn" target="_blank" rel="noopener" title="LinkedIn"></a>
+        <a class="icon github" href="https://github.com/pburdeau" aria-label="GitHub" target="_blank" rel="noopener" title="GitHub"></a>
+        <a class="icon scholar" href="https://scholar.google.com/citations?user=sJb11sYAAAAJ&hl=fr" aria-label="Google Scholar" target="_blank" rel="noopener" title="Google Scholar"></a>
+        <a class="icon email" href="mailto:pburdeau@stanford.edu" aria-label="Email" title="Email"></a>
       </div>
     </div>
   </div>
