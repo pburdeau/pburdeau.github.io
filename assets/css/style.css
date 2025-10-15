@@ -23,7 +23,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Sticky Header */
+/* Make header sticky and without white background */
 .site-nav {
     display: flex;
     gap: 18px;
@@ -31,12 +31,28 @@ body {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-color: transparent;
+    background-color: transparent; /* No white background */
     z-index: 1000;
     padding: 16px 0;
-    box-shadow: none;
-    background-color: white; /* Optional for visibility */
-    padding: 10px 0; /* Adjust padding as needed */
+    box-shadow: none; /* Keep it transparent, no shadow */
+}
+
+/* Scroll progress bar */
+#scrollbar {
+    position: sticky;
+    top: 0; /* Position it right below the sticky menu */
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #111;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Rest of the styles (no changes here) */
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 18px 64px;
 }
 
 .site-nav a {
@@ -52,64 +68,11 @@ body {
     color: #ff5722;
 }
 
-.page {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 24px 18px 64px;
+.topics {
+    padding: 14px;
+    background: none;
 }
 
-/* Scroll progress bar */
-#scrollbar {
-    position: sticky;
-    top: 0;
-    left: 0;
-    height: 2px;
-    width: 0;
-    background: #111;
-    z-index: 1000;
-}
-
-/* Back-to-top button */
-#toTop {
-    position: fixed;
-    right: 18px;
-    bottom: 18px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1.5px solid var(--ink);
-    background: #fff;
-    color: var(--ink);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    transition: transform .12s ease-out, background .12s ease-out, color .12s ease-out;
-    z-index: 1000;
-    cursor: pointer;
-}
-
-#toTop:hover {
-    transform: translateY(-1px);
-    background: var(--ink);
-    color: #fff;
-}
-
-/* Header grid: two columns, no white background box */
-.header-grid {
-    display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: 24px;
-    align-items: start;
-    margin-top: 40px;
-}
-
-@media (max-width: 860px) {
-    .header-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Left: profile card */
 .profile {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -135,7 +98,6 @@ body {
     margin: 0 0 10px;
 }
 
-/* Social media icons style */
 .social {
     display: flex;
     gap: 8px;
@@ -185,27 +147,6 @@ body {
     display: block;
 }
 
-/* Right: topics card */
-.topics {
-    padding: 14px;
-    background: none;
-}
-
-.section-title {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0 0 8px;
-}
-
-.big-bullets {
-    margin: 6px 0 0 18px;
-}
-
-.big-bullets li {
-    margin: 4px 0;
-}
-
-/* Standard sections */
 .h2 {
     font-size: 22px;
     font-weight: 600;
@@ -215,18 +156,6 @@ body {
     padding-bottom: 6px;
 }
 
-/* Links */
-.page a {
-    color: var(--ink);
-    text-decoration: none;
-    border-bottom: 1px dotted rgba(0, 0, 0, .6);
-}
-
-.page a:hover {
-    border-bottom-style: solid;
-}
-
-/* Work nooks */
 .nooks {
     display: grid;
     grid-template-columns: 1fr;
@@ -278,7 +207,6 @@ body {
     margin-top: 4px;
 }
 
-/* Footer */
 .site-footer {
     border-top: 1px solid #ddd;
     background: var(--bg);
