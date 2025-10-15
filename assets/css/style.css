@@ -160,6 +160,8 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
         justify-items: center;
+        display: flex;
+        flex-direction: column;
     }
     
     .identity {
@@ -167,6 +169,13 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        order: -1;
+    }
+    
+    .photo {
+        width: 180px;
+        height: 180px;
+        order: 0;
     }
     
     .social-note {
