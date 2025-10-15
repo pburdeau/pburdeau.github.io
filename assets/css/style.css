@@ -34,6 +34,16 @@ body {
     background-color: var(--bg);
 }
 
+/* Header name in top left */
+.header-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    padding: 12px 18px 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 /* Sticky position for the entire header menu */
 .site-nav {
     display: flex;
@@ -153,6 +163,15 @@ body {
 
 .icon:hover span {
     display: block;
+}
+
+/* Social note styling */
+.social-note {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+    opacity: 0.8;
 }
 
 .h2, .section-title {
