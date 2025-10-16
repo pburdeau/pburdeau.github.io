@@ -380,3 +380,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+html {
+    scroll-padding-top: 100px; /* Adjust based on your header height */
+    scroll-behavior: smooth;
+}
