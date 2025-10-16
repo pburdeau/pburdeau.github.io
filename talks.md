@@ -33,6 +33,17 @@ permalink: /talks/
     font-weight: 600;
 }
 
+.talk-award {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background: #059669;
+    color: white;
+    margin-top: 8px;
+}
+
 .talk-links {
     display: flex;
     gap: 10px;
@@ -82,6 +93,23 @@ permalink: /talks/
         AGU25 poster session SY41C
     </div>
     <div class="talk-year">2025</div>
+    <div class="talk-links">
+        <a href="https://www.agu.org/annual-Meeting" class="talk-link" target="_blank" rel="noopener">Event Info</a>
+    </div>
+</div>
+
+<div class="talk">
+    <div class="talk-title">
+        High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
+    </div>
+    <div class="talk-event">
+        Stanford ESE in 2050 poster session
+    </div>
+    <div class="talk-year">2025</div>
+    <span class="talk-award">🏆 Best Poster Award</span>
+    <div class="talk-links">
+        <a href="https://ese.stanford.edu/about/energy-science-engineering-2050" class="talk-link" target="_blank" rel="noopener">Event Info</a>
+    </div>
 </div>
 
 <div class="talk">
@@ -94,6 +122,7 @@ permalink: /talks/
     <div class="talk-year">2024</div>
     <div class="talk-links">
         <a href="https://youtu.be/As634h4lr3k" class="talk-link" target="_blank" rel="noopener">Watch Recording</a>
+        <a href="https://ngi.stanford.edu/events-news/meta-seminars" class="talk-link" target="_blank" rel="noopener">Event Info</a>
     </div>
 </div>
 
