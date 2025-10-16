@@ -204,6 +204,34 @@ permalink: /publications/
 </div>
 
 <div class="pub-section">
+    <h2>Conference Abstracts</h2>
+    
+    <div class="publication">
+        <div class="pub-title">
+            Statistical inference of intermittent methane emissions from heterogeneous measurements
+        </div>
+        <div class="pub-authors">
+            <strong>Burdeau, P.</strong>, McManemin, A., Sherwin, E., Wetherley, E., Berman, E., Brandt, A.
+        </div>
+        <div class="pub-venue">
+            AGU Fall Meeting Abstracts, SY41C (2025)
+        </div>
+    </div>
+    
+    <div class="publication">
+        <div class="pub-title">
+            Creating accurate methane emission inventories through data-driven airborne survey strategies: methods and results from the Anadarko and Haynesville basins, USA
+        </div>
+        <div class="pub-authors">
+            Yakovlev, P.V., Sherwin, E.D., <strong>Burdeau, P.</strong>, Brandt, A.R., Kruguer, J., Berman, E.S.F., Kamdar, H.
+        </div>
+        <div class="pub-venue">
+            AGU Fall Meeting Abstracts, A13N-01 (2024)
+        </div>
+    </div>
+</div>
+
+<div class="pub-section">
     <h2>Preprints & Conference Papers</h2>
     
     <div class="publication">
