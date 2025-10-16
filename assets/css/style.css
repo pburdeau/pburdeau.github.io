@@ -371,3 +371,12 @@ body {
     font-size: 14px;
     text-align: center;
 }
+
+a {
+    color: #0077B5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
