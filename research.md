@@ -124,6 +124,10 @@ My research focuses on developing statistical methods and computational tools to
     <p class="research-intro">
     Developing a statistical framework to estimate total emissions from heterogeneous measurement data. This work models emissions as a discrete-time stochastic process with intermittent activity and explicitly accounts for measurement noise, detection thresholds, and spatial aggregation across multiple sources.
     </p>
+    
+    <div class="research-links">
+        <a href="/publications/#statistical-inference" class="research-link secondary">Related Publications</a>
+    </div>
 </div>
 
 <div class="research-section" id="gas-composition">
@@ -138,7 +142,7 @@ My research focuses on developing statistical methods and computational tools to
         <a href="https://pburdeau.github.io/us_map_gas_composition/" class="research-link" target="_blank" rel="noopener">Interactive Map</a>
         <a href="https://github.com/pburdeau/us_gas_composition" class="research-link secondary" target="_blank" rel="noopener">Code</a>
         <a href="https://doi.org/10.5281/zenodo.17246906" class="research-link secondary" target="_blank" rel="noopener">DOI</a>
-        <a href="/publications/" class="research-link secondary">Publication</a>
+        <a href="/publications/#gas-composition" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
@@ -152,6 +156,7 @@ My research focuses on developing statistical methods and computational tools to
     
     <div class="research-links">
         <a href="https://github.com/JSRuthe/BU_methane_model" class="research-link" target="_blank" rel="noopener">Code Repository</a>
+        <a href="/publications/#bu-model" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
@@ -160,10 +165,10 @@ My research focuses on developing statistical methods and computational tools to
     <span class="research-status published">Published</span>
     
     <p class="research-intro">
-    Contributed to controlled release experiments evaluating methane detection technologies across satellites, aircraft, and ground-based continuous monitoring systems, providing critical performance benchmarks for emerging measurement technologies.
+    Participated in controlled release experiments evaluating methane detection technologies across satellites, aircraft, and ground-based continuous monitoring systems. In Fall 2022, I spent one week in the field in Arizona, then led data analysis including determining wind criteria for filtering releases that could not be correctly quantified and improving the workflow and pipeline for different phases of the single-blind experiment. In 2024, I designed the complete release schedule for the TADI facility (TotalEnergies) in France and spent two weeks on-site in September 2024 managing the experimental campaign.
     </p>
     
     <div class="research-links">
-        <a href="/publications/" class="research-link">View Publications</a>
+        <a href="/publications/#technology-evaluation" class="research-link">Related Publications</a>
     </div>
 </div>
