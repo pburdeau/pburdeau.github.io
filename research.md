@@ -37,6 +37,10 @@ permalink: /research/
     background: #059669;
 }
 
+.research-status.software {
+    background: #7C3AED;
+}
+
 .research-intro {
     font-size: 18px;
     line-height: 1.7;
@@ -105,7 +109,16 @@ My research focuses on developing statistical methods and computational tools to
 </p>
 
 <div class="research-section">
-    <h2>Statistical Inference of Intermittent Methane Emissions</h2>
+    <h2>Policy impacts of uncertainties in methane emissions estimates</h2>
+    <span class="research-status">In Progress</span>
+    
+    <p class="research-intro">
+    Investigating how uncertainties in methane emissions quantification affect policy decisions and mitigation strategies. This work uses statistical methods to characterize measurement uncertainties and assess their implications for climate policy and regulatory frameworks.
+    </p>
+</div>
+
+<div class="research-section">
+    <h2>Statistical inference of intermittent methane emissions</h2>
     <span class="research-status">In Progress</span>
     
     <p class="research-intro">
@@ -114,7 +127,7 @@ My research focuses on developing statistical methods and computational tools to
 </div>
 
 <div class="research-section">
-    <h2>High-Resolution Mapping of U.S. Natural Gas Composition</h2>
+    <h2>High-resolution mapping of U.S. natural gas composition</h2>
     <span class="research-status published">Published</span>
     
     <p class="research-intro">
@@ -125,12 +138,13 @@ My research focuses on developing statistical methods and computational tools to
         <a href="https://pburdeau.github.io/us_map_gas_composition/" class="research-link" target="_blank" rel="noopener">Interactive Map</a>
         <a href="https://github.com/pburdeau/us_gas_composition" class="research-link secondary" target="_blank" rel="noopener">Code</a>
         <a href="https://doi.org/10.5281/zenodo.17246906" class="research-link secondary" target="_blank" rel="noopener">DOI</a>
+        <a href="/publications/" class="research-link secondary">Publication</a>
     </div>
 </div>
 
 <div class="research-section">
-    <h2>Bottom-Up Methane Emissions Model</h2>
-    <span class="research-status published">Published</span>
+    <h2>Bottom-up methane emissions model</h2>
+    <span class="research-status software">Software</span>
     
     <p class="research-intro">
     Modernized the Bottom-Up Analyzer for Source Emissions (BASE) model by translating it from MATLAB to Python and developing an automated pipeline to process GHGRP data. The model now supports shape-based analysis for any geographic region and integrates comprehensive activity data from oil and gas operations.
@@ -142,16 +156,14 @@ My research focuses on developing statistical methods and computational tools to
 </div>
 
 <div class="research-section">
-    <h2>Methane Measurement Technology Evaluation</h2>
+    <h2>Methane measurement technology evaluation</h2>
     <span class="research-status published">Published</span>
     
     <p class="research-intro">
     Contributed to multiple controlled release experiments evaluating methane detection technologies across satellites, aircraft, and ground-based continuous monitoring systems. These studies provide critical performance benchmarks for emerging measurement technologies.
     </p>
-</div>
-
-<div style="margin: 64px 0 32px; padding: 24px; background: #f9fafb; border-radius: 12px; border-left: 4px solid var(--ink);">
-    <p style="margin: 0; font-size: 18px; line-height: 1.7;">
-    My work bridges statistical methodology, software development, and field measurements to address critical gaps in methane emissions quantification.
-    </p>
+    
+    <div class="research-links">
+        <a href="/publications/" class="research-link">View Publications</a>
+    </div>
 </div>
