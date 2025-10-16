@@ -32,7 +32,7 @@ permalink: /
 
 <p><strong>Background:</strong> Applied mathematics and physics at <em>École Polytechnique</em> (France) • MSc in Politics & Policy Analysis at <em>Bocconi University</em> (Italy)</p>
 
-<p><strong>Research focus:</strong> Developing <a href="/research/#statistical-inference">statistical models for methane emissions estimation</a> that combine measurements from diverse sources with varying noise levels and resolutions. Key challenges include handling intermittent emissions and spatial-temporal variability. I also developed a <a href="/research/#gas-composition">high-resolution map of U.S. natural gas composition</a> and participated in <a href="/research/#technology-evaluation">controlled release experiments</a> for methane detection technology evaluation.</p>
+<p><strong>Research focus:</strong> Developing <a href="/research#statistical-inference">statistical models for methane emissions estimation</a> that combine measurements from diverse sources with varying noise levels and resolutions. Key challenges include handling intermittent emissions and spatial-temporal variability. I also developed a <a href="/research#gas-composition">high-resolution map of U.S. natural gas composition</a> and participated in <a href="/research#technology-evaluation">controlled release experiments</a> for methane detection technology evaluation.</p>
 
 <p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em>, <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
 
