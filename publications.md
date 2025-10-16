@@ -245,10 +245,25 @@ permalink: /publications/
             <a href="https://pubs.acs.org/doi/full/10.1021/acsestair.4c00015" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
+    
+    <div class="publication" data-author-type="coauthor">
+        <div class="pub-title">
+            Comprehensive evaluation of aircraft-based methane sensing for greenhouse gas mitigation
+        </div>
+        <div class="pub-authors">
+            El Abbadi, S., Chen, Z., <strong>Burdeau, P.</strong>, Rutherford, J., Chen, Y., Zhang, Z., Sherwin, E., Brandt, A.
+        </div>
+        <div class="pub-venue">
+            EarthArXiv preprint (2023)
+        </div>
+        <div class="pub-links">
+            <a href="https://www.researchgate.net/profile/Evan-Sherwin/publication/371769847_Comprehensive_evaluation_of_aircraft-based_methane_sensing_for_greenhouse_gas_mitigation/links/64dbff0e66f0e0067d99bd8d/Comprehensive-evaluation-of-aircraft-based-methane-sensing-for-greenhouse-gas-mitigation.pdf" class="pub-link" target="_blank" rel="noopener">Paper</a>
+        </div>
+    </div>
 </div>
 
 <div class="pub-section">
-    <h2>Conference Abstracts</h2>
+    <h2>Conference Papers & Abstracts</h2>
     
     <div class="publication" data-author-type="first">
         <div class="pub-title">
@@ -271,25 +286,6 @@ permalink: /publications/
         </div>
         <div class="pub-venue">
             AGU Fall Meeting Abstracts, A13N-01 (2024)
-        </div>
-    </div>
-</div>
-
-<div class="pub-section">
-    <h2>Preprints & Conference Papers</h2>
-    
-    <div class="publication" data-author-type="coauthor">
-        <div class="pub-title">
-            Comprehensive evaluation of aircraft-based methane sensing for greenhouse gas mitigation
-        </div>
-        <div class="pub-authors">
-            El Abbadi, S., Chen, Z., <strong>Burdeau, P.</strong>, Rutherford, J., Chen, Y., Zhang, Z., Sherwin, E., Brandt, A.
-        </div>
-        <div class="pub-venue">
-            EarthArXiv preprint (2023)
-        </div>
-        <div class="pub-links">
-            <a href="https://www.researchgate.net/profile/Evan-Sherwin/publication/371769847_Comprehensive_evaluation_of_aircraft-based_methane_sensing_for_greenhouse_gas_mitigation/links/64dbff0e66f0e0067d99bd8d/Comprehensive-evaluation-of-aircraft-based-methane-sensing-for-greenhouse-gas-mitigation.pdf" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
     
