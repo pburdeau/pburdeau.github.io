@@ -27,6 +27,10 @@ permalink: /publications/
     border-left: 4px solid var(--ink);
 }
 
+.publication.hidden {
+    display: none;
+}
+
 .pub-title {
     font-size: 18px;
     font-weight: 700;
@@ -88,6 +92,35 @@ permalink: /publications/
     background: #059669;
 }
 
+.filter-toggle {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+    align-items: center;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    background: transparent;
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background: var(--ink);
+    color: white;
+}
+
+.filter-btn.active {
+    background: var(--ink);
+    color: white;
+}
+
 @media (max-width: 768px) {
     .publication {
         padding: 16px;
@@ -104,15 +137,26 @@ permalink: /publications/
     .pub-links {
         flex-direction: column;
     }
+    
+    .filter-toggle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 </style>
 
 <h1>Publications</h1>
 
+<div class="filter-toggle">
+    <span style="font-weight: 600;">Filter:</span>
+    <button class="filter-btn active" onclick="filterPublications('all')">All Publications</button>
+    <button class="filter-btn" onclick="filterPublications('first')">First Author Only</button>
+</div>
+
 <div class="pub-section">
     <h2>Journal Articles</h2>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Carbon intensity of United States natural gas supply
             <span class="pub-status">In Review</span>
@@ -125,7 +169,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
             <span class="pub-status">In Review</span>
@@ -141,7 +185,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="first">
         <div class="pub-title">
             High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
             <span class="pub-status accepted">Accepted in Principle</span>
@@ -157,7 +201,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Single-blind test of nine methane-sensing satellite systems from three continents
         </div>
@@ -172,7 +216,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Technological maturity of aircraft-based methane sensing for greenhouse gas mitigation
         </div>
@@ -187,7 +231,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Comparing continuous methane monitoring technologies for high-volume emissions: a single-blind controlled release study
         </div>
@@ -206,7 +250,7 @@ permalink: /publications/
 <div class="pub-section">
     <h2>Conference Abstracts</h2>
     
-    <div class="publication">
+    <div class="publication" data-author-type="first">
         <div class="pub-title">
             Statistical inference of intermittent methane emissions from heterogeneous measurements
         </div>
@@ -218,7 +262,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Creating accurate methane emission inventories through data-driven airborne survey strategies: methods and results from the Anadarko and Haynesville basins, USA
         </div>
@@ -234,7 +278,7 @@ permalink: /publications/
 <div class="pub-section">
     <h2>Preprints & Conference Papers</h2>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Comprehensive evaluation of aircraft-based methane sensing for greenhouse gas mitigation
         </div>
@@ -249,7 +293,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication">
+    <div class="publication" data-author-type="coauthor">
         <div class="pub-title">
             Independent evaluation of methane sensing satellites, airplanes, and continuous monitoring ground sensors
         </div>
@@ -268,7 +312,7 @@ permalink: /publications/
 <div class="pub-section">
     <h2>Reports</h2>
     
-    <div class="publication">
+    <div class="publication" data-author-type="first">
         <div class="pub-title">
             Carbon emissions assessment: towards accurate control
         </div>
@@ -283,3 +327,27 @@ permalink: /publications/
         </div>
     </div>
 </div>
+
+<script>
+function filterPublications(type) {
+    const publications = document.querySelectorAll('.publication');
+    const buttons = document.querySelectorAll('.filter-btn');
+    
+    // Update button styles
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    // Filter publications
+    publications.forEach(pub => {
+        if (type === 'all') {
+            pub.classList.remove('hidden');
+        } else if (type === 'first') {
+            if (pub.getAttribute('data-author-type') === 'first') {
+                pub.classList.remove('hidden');
+            } else {
+                pub.classList.add('hidden');
+            }
+        }
+    });
+}
+</script>
