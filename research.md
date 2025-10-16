@@ -118,7 +118,7 @@ My research focuses on developing statistical methods and computational tools to
 </div>
 
 <div class="research-section" id="statistical-inference">
-    <h2>Statistical inference of intermittent methane emissions</h2>
+    <h2>Statistical modeling for methane inventories</h2>
     <span class="research-status">In Progress</span>
     
     <p class="research-intro">
@@ -126,7 +126,7 @@ My research focuses on developing statistical methods and computational tools to
     </p>
     
     <div class="research-links">
-        <a href="/publications/#statistical-inference" class="research-link secondary">Related Publications</a>
+        <a href="/publications/?filter=statistical-inference" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
@@ -142,7 +142,7 @@ My research focuses on developing statistical methods and computational tools to
         <a href="https://pburdeau.github.io/us_map_gas_composition/" class="research-link" target="_blank" rel="noopener">Interactive Map</a>
         <a href="https://github.com/pburdeau/us_gas_composition" class="research-link secondary" target="_blank" rel="noopener">Code</a>
         <a href="https://doi.org/10.5281/zenodo.17246906" class="research-link secondary" target="_blank" rel="noopener">DOI</a>
-        <a href="/publications/#gas-composition" class="research-link secondary">Related Publications</a>
+        <a href="/publications/?filter=gas-composition" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
@@ -156,7 +156,7 @@ My research focuses on developing statistical methods and computational tools to
     
     <div class="research-links">
         <a href="https://github.com/JSRuthe/BU_methane_model" class="research-link" target="_blank" rel="noopener">Code Repository</a>
-        <a href="/publications/#bu-model" class="research-link secondary">Related Publications</a>
+        <a href="/publications/?filter=bu-model" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
@@ -169,6 +169,6 @@ My research focuses on developing statistical methods and computational tools to
     </p>
     
     <div class="research-links">
-        <a href="/publications/#technology-evaluation" class="research-link">Related Publications</a>
+        <a href="/publications/?filter=technology-evaluation" class="research-link">Related Publications</a>
     </div>
 </div>
