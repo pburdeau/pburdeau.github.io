@@ -19,8 +19,8 @@ permalink: /
   <div class="topics">
     <div class="section-title">Key Topics</div>
     <ul class="big-bullets">
+      <li>Uncertainty quantification</li>
       <li>Statistical modeling</li>
-      <li>Remote sensing</li>
       <li>Policy implications</li>
     </ul>
   </div>
@@ -28,11 +28,11 @@ permalink: /
 
 <div class="h2">Summary</div>
 
-<p>I am a <strong>4th‑year PhD candidate</strong> in Energy Science & Engineering in the School of Sustainability at <em>Stanford University</em>, working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group.</p>
+<p>I am a <strong>4th‑year PhD candidate</strong> in Energy Science & Engineering at <em>Stanford University</em>, working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group.</p>
 
 <p><strong>Background:</strong> Applied mathematics and physics at <em>École Polytechnique</em> (France) • MSc in Politics & Policy Analysis at <em>Bocconi University</em> (Italy)</p>
 
-<p><strong>Research focus:</strong> Developing <a href="/research#statistical-inference">statistical models for methane emissions estimation</a> that combine measurements from diverse sources with varying noise levels and resolutions. Key challenges include handling intermittent emissions and spatial-temporal variability. I also developed a <a href="/research#gas-composition">high-resolution map of U.S. natural gas composition</a> and participated in <a href="/research#technology-evaluation">controlled release experiments</a> for methane detection technology evaluation.</p>
+<p><strong>Research motivation:</strong> Effective climate policy depends on reliable emissions data with well-quantified uncertainties. I work on reducing uncertainties in methane emissions estimates. My research includes developing a <a href="/research#gas-composition">high-resolution map of U.S. natural gas composition</a> with uncertainty estimates, working on <a href="/research#statistical-inference">statistical methods for intermittent emissions</a>, and participating in <a href="/research#technology-evaluation">controlled release experiments</a> that evaluate methane detection technologies.</p>
 
 <p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em>, <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
 
@@ -61,5 +61,5 @@ permalink: /
 </div>
 
 <div class="h2">Personal</div>
-<p>I'm French, married to <a href="https://axlevy.com/" target="_blank" rel="noopener">Axel Levy</a> (also French) since August 2024. We met in New Caledonia during our military service.</p>
-<p>Outside of work, I spend time playing piano, writing, running, and by the ocean when I can.</p>
+<p>I'm French, married to <a href="https://axlevy.com/" target="_blank" rel="noopener">Axel Levy</a> (also French) since August 2024. We met in New Caledonia during my military service.</p>
+<p>Outside of work, I spend time playing piano (baroque music is a favorite), writing, running, and by the ocean when I can. I'm happiest working in old libraries with books all around.</p>
