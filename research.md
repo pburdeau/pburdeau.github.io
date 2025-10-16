@@ -168,6 +168,6 @@ My research focuses on developing statistical methods and computational tools to
     </p>
     
     <div class="research-links">
-        <a href="/publications/?filter=technology-evaluation" class="research-link">Related Publications</a>
+        <a href="/publications/?filter=technology-evaluation" class="research-link secondary">Related Publications</a>
     </div>
 </div>
