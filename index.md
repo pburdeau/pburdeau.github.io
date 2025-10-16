@@ -19,7 +19,7 @@ permalink: /
   <div class="topics">
     <div class="section-title">Key Topics</div>
     <ul class="big-bullets">
-      <li>Statistical modeling and ucertainty quantification</li>
+      <li>Statistical modeling and uncertainty quantification</li>
       <li>Remote sensing</li>
       <li>Policy implications</li>
     </ul>
