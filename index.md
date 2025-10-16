@@ -25,10 +25,19 @@ permalink: /
     </ul>
   </div>
 </div>
+
 <div class="h2">Summary</div>
-<p>I am a <strong>4th‑year PhD candidate</strong> in Energy Science & Engineering in the School of Sustainability at <em>Stanford University</em>, working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group. Originally from France, I studied applied mathematics and physics at <em>École Polytechnique</em> and completed an MSc in Politics & Policy Analysis at <em>Bocconi University</em>.</p>
-<p>My research focuses on <strong>methane emissions estimation</strong>, developing statistical models that optimally combine measurements from diverse sources with varying noise levels, temporal and spatial resolutions, and emplacement. A core challenge is handling <strong>intermittent emissions</strong> that are non-uniformly distributed across space and time. I also worked on modeling and predicting <strong>natural gas composition</strong> and have participated in <strong>controlled release experiments</strong> for methane detection and quantification.</p>
-<p>Expected to graduate in the latter half of 2026, I am looking to pursue a career in the tech and sustainability sector, with a focus on satellite-based environmental monitoring, detection systems, and related policy development.</p>
+
+<p>I am a <strong>4th‑year PhD candidate</strong> in Energy Science & Engineering in the School of Sustainability at <em>Stanford University</em>, working with Prof. Adam Brandt in the <a href="https://eao.stanford.edu/" target="_blank" rel="noopener">Environmental Assessment & Optimization</a> group.</p>
+
+<p><strong>Background:</strong> Applied mathematics and physics at <em>École Polytechnique</em> (France) • MSc in Politics & Policy Analysis at <em>Bocconi University</em> (Italy)</p>
+
+<p><strong>Research focus:</strong> Developing <a href="/research/#statistical-inference">statistical models for methane emissions estimation</a> that combine measurements from diverse sources with varying noise levels and resolutions. Key challenges include handling intermittent emissions and spatial-temporal variability. I also developed a <a href="/research/#gas-composition">high-resolution map of U.S. natural gas composition</a> and participated in <a href="/research/#technology-evaluation">controlled release experiments</a> for methane detection technology evaluation.</p>
+
+<p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em>, <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
+
+<p><strong>Looking ahead:</strong> Expected graduation in late 2026. Seeking opportunities in tech and sustainability, particularly in satellite-based environmental monitoring, detection systems, and related policy development.</p>
+
 <div class="h2">Work Nooks</div>
 <div class="nooks">
   <figure class="nook">
