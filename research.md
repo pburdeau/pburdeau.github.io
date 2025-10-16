@@ -122,7 +122,7 @@ My research focuses on developing statistical methods and computational tools to
     <span class="research-status">In Progress</span>
     
     <p class="research-intro">
-    Developing advanced statistical methods for quantifying methane emissions from heterogeneous measurement data. This work combines geostatistics, Bayesian inference, and emission inventory reconciliation to better understand intermittent emission events from oil and gas infrastructure.
+    Developing a statistical framework to estimate total emissions from heterogeneous measurement data. This work models emissions as a discrete-time stochastic process with intermittent activity and explicitly accounts for measurement noise, detection thresholds, and spatial aggregation across multiple sources.
     </p>
 </div>
 
@@ -131,7 +131,7 @@ My research focuses on developing statistical methods and computational tools to
     <span class="research-status published">Published</span>
     
     <p class="research-intro">
-    Created the first comprehensive, high-resolution national map of natural gas composition across the United States. This work reveals substantial regional variations in greenhouse gas intensity and provides new estimates of methane leakage impacts.
+    Developed a spatio-temporal interpolation method combining kriging with production data to map natural gas composition across the United States at 2km resolution. This work reveals that methane loss rates have been underestimated by 7-54% in most basins due to compositional variability, and provides the first comprehensive assessment of co-emitted species beyond methane.
     </p>
     
     <div class="research-links">
@@ -147,7 +147,7 @@ My research focuses on developing statistical methods and computational tools to
     <span class="research-status software">Software</span>
     
     <p class="research-intro">
-    Modernized the Bottom-Up Analyzer for Source Emissions (BASE) model by translating it from MATLAB to Python and developing an automated pipeline to process GHGRP data. The model now supports shape-based analysis for any geographic region and integrates comprehensive activity data from oil and gas operations.
+    Modernized the Bottom-Up Analyzer for Source Emissions (BASE) model by translating it from MATLAB to Python and developing an automated pipeline to process GHGRP data. The model enables emissions analysis for any geographic region using shape-based scaling of facility-level activity data.
     </p>
     
     <div class="research-links">
@@ -160,7 +160,7 @@ My research focuses on developing statistical methods and computational tools to
     <span class="research-status published">Published</span>
     
     <p class="research-intro">
-    Contributed to multiple controlled release experiments evaluating methane detection technologies across satellites, aircraft, and ground-based continuous monitoring systems. These studies provide critical performance benchmarks for emerging measurement technologies.
+    Contributed to controlled release experiments evaluating methane detection technologies across satellites, aircraft, and ground-based continuous monitoring systems, providing critical performance benchmarks for emerging measurement technologies.
     </p>
     
     <div class="research-links">
