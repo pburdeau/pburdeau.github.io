@@ -108,7 +108,7 @@ permalink: /research/
 My research focuses on developing statistical methods and computational tools to better quantify and understand methane emissions from the oil and gas sector.
 </p>
 
-<div class="research-section">
+<div class="research-section" id="policy-impacts">
     <h2>Policy impacts of uncertainties in methane emissions estimates</h2>
     <span class="research-status">In Progress</span>
     
@@ -117,7 +117,7 @@ My research focuses on developing statistical methods and computational tools to
     </p>
 </div>
 
-<div class="research-section">
+<div class="research-section" id="statistical-inference">
     <h2>Statistical inference of intermittent methane emissions</h2>
     <span class="research-status">In Progress</span>
     
@@ -126,7 +126,7 @@ My research focuses on developing statistical methods and computational tools to
     </p>
 </div>
 
-<div class="research-section">
+<div class="research-section" id="gas-composition">
     <h2>High-resolution mapping of U.S. natural gas composition</h2>
     <span class="research-status published">Published</span>
     
@@ -142,7 +142,7 @@ My research focuses on developing statistical methods and computational tools to
     </div>
 </div>
 
-<div class="research-section">
+<div class="research-section" id="bu-model">
     <h2>Bottom-up methane emissions model</h2>
     <span class="research-status software">Software</span>
     
@@ -155,7 +155,7 @@ My research focuses on developing statistical methods and computational tools to
     </div>
 </div>
 
-<div class="research-section">
+<div class="research-section" id="technology-evaluation">
     <h2>Methane measurement technology evaluation</h2>
     <span class="research-status published">Published</span>
     
