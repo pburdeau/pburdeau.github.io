@@ -153,15 +153,15 @@ permalink: /publications/
     <button class="filter-btn active" onclick="filterPublications('all', this)">All Publications</button>
     <button class="filter-btn" onclick="filterPublications('first', this)">First Author Only</button>
     <button class="filter-btn" onclick="filterPublications('gas-composition', this)">Gas Composition</button>
-    <button class="filter-btn" onclick="filterPublications('statistical-inference', this)">Statistical Inference</button>
+    <button class="filter-btn" onclick="filterPublications('statistical-inference', this)">Statistical Modeling</button>
     <button class="filter-btn" onclick="filterPublications('technology-evaluation', this)">Technology Evaluation</button>
     <button class="filter-btn" onclick="filterPublications('bu-model', this)">Bottom-Up Model</button>
 </div>
 
-<div class="pub-section" id="gas-composition">
-    <h2>Gas Composition Mapping</h2>
+<div class="pub-section">
+    <h2>Journal Articles</h2>
     
-    <div class="publication" data-author-type="coauthor" data-project="gas-composition">
+    <div class="publication" data-author-type="coauthor" data-project="other">
         <div class="pub-title">
             Carbon intensity of United States natural gas supply
             <span class="pub-status">In Review</span>
@@ -171,6 +171,22 @@ permalink: /publications/
         </div>
         <div class="pub-venue">
             Environmental Science & Technology (2025)
+        </div>
+    </div>
+    
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
+        <div class="pub-title">
+            Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
+            <span class="pub-status">In Review</span>
+        </div>
+        <div class="pub-authors">
+            McManemin, A., Juéry, C., Blandin, V., France, J.L., <strong>Burdeau, P.</strong>, Brandt, A.
+        </div>
+        <div class="pub-venue">
+            Atmospheric Measurement Techniques (2025)
+        </div>
+        <div class="pub-links">
+            <a href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3793/" class="pub-link" target="_blank" rel="noopener">Preprint</a>
         </div>
     </div>
     
@@ -187,42 +203,6 @@ permalink: /publications/
         </div>
         <div class="pub-links">
             <a href="https://www.researchgate.net/publication/391799633_High-resolution_national_mapping_of_natural_gas_composition_substantially_updates_methane_leakage_impacts" class="pub-link" target="_blank" rel="noopener">Preprint</a>
-        </div>
-    </div>
-</div>
-
-<div class="pub-section" id="statistical-inference">
-    <h2>Statistical Inference</h2>
-    
-    <div class="publication" data-author-type="first" data-project="statistical-inference">
-        <div class="pub-title">
-            Statistical inference of intermittent methane emissions from heterogeneous measurements
-        </div>
-        <div class="pub-authors">
-            <strong>Burdeau, P.</strong>, McManemin, A., Sherwin, E., Wetherley, E., Berman, E., Brandt, A.
-        </div>
-        <div class="pub-venue">
-            AGU Fall Meeting Abstracts, SY41C (2025)
-        </div>
-    </div>
-</div>
-
-<div class="pub-section" id="technology-evaluation">
-    <h2>Technology Evaluation</h2>
-    
-    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
-        <div class="pub-title">
-            Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
-            <span class="pub-status">In Review</span>
-        </div>
-        <div class="pub-authors">
-            McManemin, A., Juéry, C., Blandin, V., France, J.L., <strong>Burdeau, P.</strong>, Brandt, A.
-        </div>
-        <div class="pub-venue">
-            Atmospheric Measurement Techniques (2025)
-        </div>
-        <div class="pub-links">
-            <a href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3793/" class="pub-link" target="_blank" rel="noopener">Preprint</a>
         </div>
     </div>
     
@@ -285,8 +265,24 @@ permalink: /publications/
             <a href="https://www.researchgate.net/profile/Evan-Sherwin/publication/371769847_Comprehensive_evaluation_of_aircraft-based_methane_sensing_for_greenhouse_gas_mitigation/links/64dbff0e66f0e0067d99bd8d/Comprehensive-evaluation-of-aircraft-based-methane-sensing-for-greenhouse-gas-mitigation.pdf" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
+</div>
+
+<div class="pub-section">
+    <h2>Conference Papers & Abstracts</h2>
     
-    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
+    <div class="publication" data-author-type="first" data-project="statistical-inference">
+        <div class="pub-title">
+            Statistical inference of intermittent methane emissions from heterogeneous measurements
+        </div>
+        <div class="pub-authors">
+            <strong>Burdeau, P.</strong>, McManemin, A., Sherwin, E., Wetherley, E., Berman, E., Brandt, A.
+        </div>
+        <div class="pub-venue">
+            AGU Fall Meeting Abstracts, SY41C (2025)
+        </div>
+    </div>
+    
+    <div class="publication" data-author-type="coauthor" data-project="statistical-inference">
         <div class="pub-title">
             Creating accurate methane emission inventories through data-driven airborne survey strategies: methods and results from the Anadarko and Haynesville basins, USA
         </div>
@@ -314,8 +310,8 @@ permalink: /publications/
     </div>
 </div>
 
-<div class="pub-section" id="bu-model">
-    <h2>Bottom-Up Emissions Model</h2>
+<div class="pub-section">
+    <h2>Reports</h2>
     
     <div class="publication" data-author-type="first" data-project="bu-model">
         <div class="pub-title">
@@ -334,6 +330,18 @@ permalink: /publications/
 </div>
 
 <script>
+// Check URL parameters on page load
+window.addEventListener('DOMContentLoaded', (event) => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const filter = urlParams.get('filter');
+    if (filter) {
+        const button = document.querySelector(`button[onclick*="${filter}"]`);
+        if (button) {
+            filterPublications(filter, button);
+        }
+    }
+});
+
 function filterPublications(type, button) {
     const publications = document.querySelectorAll('.publication');
     const sections = document.querySelectorAll('.pub-section');
