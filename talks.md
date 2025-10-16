@@ -131,7 +131,13 @@ permalink: /talks/
         CEOS side meeting at IWGGMS
     </div>
     <div class="talk-event">
-        CNES, Paris
+        Committee on Earth Observation Satellites - International Workshop on Greenhouse Gas Measurements from Space
+    </div>
+    <div class="talk-event">
+        CNES, Paris, France
     </div>
     <div class="talk-year">2023</div>
+    <div class="talk-links">
+        <a href="https://ceos.org/meetings/iwggms-19/" class="talk-link" target="_blank" rel="noopener">Event Info</a>
+    </div>
 </div>
