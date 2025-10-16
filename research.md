@@ -156,7 +156,6 @@ My research focuses on developing statistical methods and computational tools to
     
     <div class="research-links">
         <a href="https://github.com/JSRuthe/BU_methane_model" class="research-link" target="_blank" rel="noopener">Code Repository</a>
-        <a href="/publications/?filter=bu-model" class="research-link secondary">Related Publications</a>
     </div>
 </div>
 
