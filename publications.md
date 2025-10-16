@@ -97,6 +97,7 @@ permalink: /publications/
     gap: 12px;
     margin: 24px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .filter-btn {
@@ -148,15 +149,19 @@ permalink: /publications/
 <h1>Publications</h1>
 
 <div class="filter-toggle">
-    <span style="font-weight: 600;">Filter:</span>
-    <button class="filter-btn active" onclick="filterPublications('all')">All Publications</button>
-    <button class="filter-btn" onclick="filterPublications('first')">First Author Only</button>
+    <span style="font-weight: 600;">View:</span>
+    <button class="filter-btn active" onclick="filterPublications('all', this)">All Publications</button>
+    <button class="filter-btn" onclick="filterPublications('first', this)">First Author Only</button>
+    <button class="filter-btn" onclick="filterPublications('gas-composition', this)">Gas Composition</button>
+    <button class="filter-btn" onclick="filterPublications('statistical-inference', this)">Statistical Inference</button>
+    <button class="filter-btn" onclick="filterPublications('technology-evaluation', this)">Technology Evaluation</button>
+    <button class="filter-btn" onclick="filterPublications('bu-model', this)">Bottom-Up Model</button>
 </div>
 
-<div class="pub-section">
-    <h2>Journal Articles</h2>
+<div class="pub-section" id="gas-composition">
+    <h2>Gas Composition Mapping</h2>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="gas-composition">
         <div class="pub-title">
             Carbon intensity of United States natural gas supply
             <span class="pub-status">In Review</span>
@@ -169,7 +174,43 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="first" data-project="gas-composition">
+        <div class="pub-title">
+            High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
+            <span class="pub-status accepted">Accepted in Principle</span>
+        </div>
+        <div class="pub-authors">
+            <strong>Burdeau, P.</strong>, Sherwin, E., Berman, E., Biraud, S., Brandt, A.
+        </div>
+        <div class="pub-venue">
+            Nature Communications (2025)
+        </div>
+        <div class="pub-links">
+            <a href="https://www.researchgate.net/publication/391799633_High-resolution_national_mapping_of_natural_gas_composition_substantially_updates_methane_leakage_impacts" class="pub-link" target="_blank" rel="noopener">Preprint</a>
+        </div>
+    </div>
+</div>
+
+<div class="pub-section" id="statistical-inference">
+    <h2>Statistical Inference</h2>
+    
+    <div class="publication" data-author-type="first" data-project="statistical-inference">
+        <div class="pub-title">
+            Statistical inference of intermittent methane emissions from heterogeneous measurements
+        </div>
+        <div class="pub-authors">
+            <strong>Burdeau, P.</strong>, McManemin, A., Sherwin, E., Wetherley, E., Berman, E., Brandt, A.
+        </div>
+        <div class="pub-venue">
+            AGU Fall Meeting Abstracts, SY41C (2025)
+        </div>
+    </div>
+</div>
+
+<div class="pub-section" id="technology-evaluation">
+    <h2>Technology Evaluation</h2>
+    
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
             <span class="pub-status">In Review</span>
@@ -185,23 +226,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="first">
-        <div class="pub-title">
-            High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
-            <span class="pub-status accepted">Accepted in Principle</span>
-        </div>
-        <div class="pub-authors">
-            <strong>Burdeau, P.</strong>, Sherwin, E., Berman, E., Biraud, S., Brandt, A.
-        </div>
-        <div class="pub-venue">
-            Nature Communications (2025)
-        </div>
-        <div class="pub-links">
-            <a href="https://www.researchgate.net/publication/391799633_High-resolution_national_mapping_of_natural_gas_composition_substantially_updates_methane_leakage_impacts" class="pub-link" target="_blank" rel="noopener">Preprint</a>
-        </div>
-    </div>
-    
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Single-blind test of nine methane-sensing satellite systems from three continents
         </div>
@@ -216,7 +241,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Technological maturity of aircraft-based methane sensing for greenhouse gas mitigation
         </div>
@@ -231,7 +256,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Comparing continuous methane monitoring technologies for high-volume emissions: a single-blind controlled release study
         </div>
@@ -246,7 +271,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Comprehensive evaluation of aircraft-based methane sensing for greenhouse gas mitigation
         </div>
@@ -260,24 +285,8 @@ permalink: /publications/
             <a href="https://www.researchgate.net/profile/Evan-Sherwin/publication/371769847_Comprehensive_evaluation_of_aircraft-based_methane_sensing_for_greenhouse_gas_mitigation/links/64dbff0e66f0e0067d99bd8d/Comprehensive-evaluation-of-aircraft-based-methane-sensing-for-greenhouse-gas-mitigation.pdf" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
-</div>
-
-<div class="pub-section">
-    <h2>Conference Papers & Abstracts</h2>
     
-    <div class="publication" data-author-type="first">
-        <div class="pub-title">
-            Statistical inference of intermittent methane emissions from heterogeneous measurements
-        </div>
-        <div class="pub-authors">
-            <strong>Burdeau, P.</strong>, McManemin, A., Sherwin, E., Wetherley, E., Berman, E., Brandt, A.
-        </div>
-        <div class="pub-venue">
-            AGU Fall Meeting Abstracts, SY41C (2025)
-        </div>
-    </div>
-    
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Creating accurate methane emission inventories through data-driven airborne survey strategies: methods and results from the Anadarko and Haynesville basins, USA
         </div>
@@ -289,7 +298,7 @@ permalink: /publications/
         </div>
     </div>
     
-    <div class="publication" data-author-type="coauthor">
+    <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Independent evaluation of methane sensing satellites, airplanes, and continuous monitoring ground sensors
         </div>
@@ -305,10 +314,10 @@ permalink: /publications/
     </div>
 </div>
 
-<div class="pub-section">
-    <h2>Reports</h2>
+<div class="pub-section" id="bu-model">
+    <h2>Bottom-Up Emissions Model</h2>
     
-    <div class="publication" data-author-type="first">
+    <div class="publication" data-author-type="first" data-project="bu-model">
         <div class="pub-title">
             Carbon emissions assessment: towards accurate control
         </div>
@@ -325,25 +334,43 @@ permalink: /publications/
 </div>
 
 <script>
-function filterPublications(type) {
+function filterPublications(type, button) {
     const publications = document.querySelectorAll('.publication');
+    const sections = document.querySelectorAll('.pub-section');
     const buttons = document.querySelectorAll('.filter-btn');
     
     // Update button styles
     buttons.forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
+    button.classList.add('active');
     
     // Filter publications
-    publications.forEach(pub => {
-        if (type === 'all') {
-            pub.classList.remove('hidden');
-        } else if (type === 'first') {
+    if (type === 'all') {
+        publications.forEach(pub => pub.classList.remove('hidden'));
+        sections.forEach(section => section.style.display = 'block');
+    } else if (type === 'first') {
+        publications.forEach(pub => {
             if (pub.getAttribute('data-author-type') === 'first') {
                 pub.classList.remove('hidden');
             } else {
                 pub.classList.add('hidden');
             }
-        }
-    });
+        });
+        sections.forEach(section => {
+            const visiblePubs = section.querySelectorAll('.publication:not(.hidden)');
+            section.style.display = visiblePubs.length > 0 ? 'block' : 'none';
+        });
+    } else {
+        publications.forEach(pub => {
+            if (pub.getAttribute('data-project') === type) {
+                pub.classList.remove('hidden');
+            } else {
+                pub.classList.add('hidden');
+            }
+        });
+        sections.forEach(section => {
+            const visiblePubs = section.querySelectorAll('.publication:not(.hidden)');
+            section.style.display = visiblePubs.length > 0 ? 'block' : 'none';
+        });
+    }
 }
 </script>
