@@ -59,3 +59,8 @@ permalink: /
     <figcaption>Boston Public Library<small>grand tables</small></figcaption>
   </figure>
 </div>
+
+<div style="margin-top: 48px; font-size: 16px; line-height: 1.7;">
+    <p>I'm French, married to <a href="https://axlevy.com/" target="_blank" rel="noopener">Axel Levy</a> (also French) since August 2024. We met in New Caledonia during military service.</p>
+    <p>Outside of work, I spend time playing piano, writing, running, and by the ocean when I can.</p>
+</div>
