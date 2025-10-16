@@ -155,7 +155,6 @@ permalink: /publications/
     <button class="filter-btn" onclick="filterPublications('gas-composition', this)">Gas Composition</button>
     <button class="filter-btn" onclick="filterPublications('statistical-inference', this)">Statistical Modeling</button>
     <button class="filter-btn" onclick="filterPublications('technology-evaluation', this)">Technology Evaluation</button>
-    <button class="filter-btn" onclick="filterPublications('bu-model', this)">Bottom-Up Model</button>
 </div>
 
 <div class="pub-section">
@@ -313,7 +312,7 @@ permalink: /publications/
 <div class="pub-section">
     <h2>Reports</h2>
     
-    <div class="publication" data-author-type="first" data-project="bu-model">
+    <div class="publication" data-author-type="first" data-project="other">
         <div class="pub-title">
             Carbon emissions assessment: towards accurate control
         </div>
