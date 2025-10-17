@@ -105,7 +105,7 @@ permalink: /research/
 <h1>Research</h1>
 
 <p style="font-size: 20px; line-height: 1.7; margin: 24px 0 48px; color: #333;">
-My research focuses on developing statistical methods and computational tools to better quantify and understand methane emissions from the oil and gas sector.
+I develop statistical methods and computational tools for quantifying methane emissions from the oil and gas sector. My research projects are described below, with related publications listed on the <a href="/publications/">Publications page</a>.
 </p>
 
 <div class="research-section" id="policy-impacts">
