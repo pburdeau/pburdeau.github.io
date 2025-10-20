@@ -34,7 +34,7 @@ permalink: /
 
 <p><strong>Research motivation:</strong> Effective climate policy depends on reliable emissions data with well-quantified uncertainties. I work on reducing uncertainties in methane emissions estimates. My research includes developing a <a href="/research#gas-composition">high-resolution map of U.S. natural gas composition</a> with uncertainty estimates, working on <a href="/research#statistical-inference">statistical methods for intermittent emissions</a>, and participating in <a href="/research#technology-evaluation">controlled release experiments</a> that evaluate methane detection technologies.</p>
 
-<p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em>, <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
+<p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em> (accepted in principle), <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
 
 <p><strong>Looking ahead:</strong> Expected graduation in late 2026. Seeking opportunities in tech and sustainability, particularly in satellite-based environmental monitoring, detection systems, and related policy development.</p>
 
