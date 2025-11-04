@@ -26,13 +26,3 @@
     <priority>0.5</priority>
   </url>
 </urlset>
-```
-
-**2. Add a robots.txt file**
-
-Create `robots.txt` in your repository root:
-```
-User-agent: *
-Allow: /
-
-Sitemap: https://pburdeau.github.io/sitemap.xml
