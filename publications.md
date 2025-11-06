@@ -192,7 +192,7 @@ permalink: /publications/
     <div class="publication" data-author-type="first" data-project="gas-composition">
         <div class="pub-title">
             High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
-            <span class="pub-status accepted">Accepted in Principle</span>
+            <span class="pub-status accepted">Accepted</span>
         </div>
         <div class="pub-authors">
             <strong>Burdeau, P.</strong>, Sherwin, E., Berman, E., Biraud, S., Brandt, A.
