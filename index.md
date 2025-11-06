@@ -36,7 +36,7 @@ permalink: /
 
 <p><strong>Publications:</strong> My work has been published in <em>Nature Communications</em>, <em>Environmental Science & Technology</em>, <em>Atmospheric Measurement Techniques</em>, and <em>ACS ES&T Air</em>. See my <a href="/publications/">full publication list</a>.</p>
 
-<p><strong>Looking ahead:</strong> Expected graduation in late 2026. Expected graduation in late 2026. Seeking to contribute to tech and sustainability initiatives, for example in climate data, emissions monitoring, and product design for impact.</p>
+<p><strong>Looking ahead:</strong> Expected graduation in mid/late 2026. Seeking to contribute to tech and sustainability initiatives, for example in climate data, emissions monitoring, and product design for impact.</p>
 
 <div class="h2">Work Nooks</div>
 <div class="nooks">
