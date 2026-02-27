@@ -163,7 +163,7 @@ permalink: /publications/
     <div class="publication" data-author-type="coauthor" data-project="other">
         <div class="pub-title">
             Carbon intensity of United States natural gas supply
-            <span class="pub-status">In Review</span>
+            <span class="pub-status">Published</span>
         </div>
         <div class="pub-authors">
             Zhang, Z., Rutherford, J., Littlefield, J., Ramadan, F., Ali Saafi, M., Ren, B., Y Jabbar, M., Saad, D., <strong>Burdeau, P.</strong>, Masnadi, M., Brandt, A.
@@ -171,12 +171,15 @@ permalink: /publications/
         <div class="pub-venue">
             Environmental Science & Technology (2025)
         </div>
+        <div class="pub-links">
+            <a href="https://pubs.acs.org/doi/10.1021/acs.est.5c14196" class="pub-link" target="_blank" rel="noopener">Paper</a>
+        </div>
     </div>
     
     <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
-            <span class="pub-status">In Review</span>
+            <span class="pub-status">Published</span>
         </div>
         <div class="pub-authors">
             McManemin, A., Juéry, C., Blandin, V., France, J.L., <strong>Burdeau, P.</strong>, Brandt, A.
@@ -185,14 +188,14 @@ permalink: /publications/
             Atmospheric Measurement Techniques (2025)
         </div>
         <div class="pub-links">
-            <a href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3793/" class="pub-link" target="_blank" rel="noopener">Preprint</a>
+            <a href="https://amt.copernicus.org/articles/19/923/2026/" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
     
     <div class="publication" data-author-type="first" data-project="gas-composition">
         <div class="pub-title">
             High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
-            <span class="pub-status accepted">Accepted</span>
+            <span class="pub-status accepted">Published</span>
         </div>
         <div class="pub-authors">
             <strong>Burdeau, P.</strong>, Sherwin, E., Berman, E., Biraud, S., Brandt, A.
@@ -201,7 +204,7 @@ permalink: /publications/
             Nature Communications (2025)
         </div>
         <div class="pub-links">
-            <a href="https://www.researchgate.net/publication/391799633_High-resolution_national_mapping_of_natural_gas_composition_substantially_updates_methane_leakage_impacts" class="pub-link" target="_blank" rel="noopener">Preprint</a>
+            <a href="https://www.nature.com/articles/s41467-025-66465-6" class="pub-link" target="_blank" rel="noopener">Paper</a>
         </div>
     </div>
     
