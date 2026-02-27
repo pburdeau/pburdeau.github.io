@@ -163,7 +163,6 @@ permalink: /publications/
     <div class="publication" data-author-type="coauthor" data-project="other">
         <div class="pub-title">
             Carbon intensity of United States natural gas supply
-            <span class="pub-status">Published</span>
         </div>
         <div class="pub-authors">
             Zhang, Z., Rutherford, J., Littlefield, J., Ramadan, F., Ali Saafi, M., Ren, B., Y Jabbar, M., Saad, D., <strong>Burdeau, P.</strong>, Masnadi, M., Brandt, A.
@@ -179,7 +178,6 @@ permalink: /publications/
     <div class="publication" data-author-type="coauthor" data-project="technology-evaluation">
         <div class="pub-title">
             Controlled release testing of commercially available methane emission measurement technologies at the TADI facility
-            <span class="pub-status">Published</span>
         </div>
         <div class="pub-authors">
             McManemin, A., Juéry, C., Blandin, V., France, J.L., <strong>Burdeau, P.</strong>, Brandt, A.
@@ -195,7 +193,6 @@ permalink: /publications/
     <div class="publication" data-author-type="first" data-project="gas-composition">
         <div class="pub-title">
             High-resolution national mapping of natural gas composition substantially updates methane leakage impacts
-            <span class="pub-status accepted">Published</span>
         </div>
         <div class="pub-authors">
             <strong>Burdeau, P.</strong>, Sherwin, E., Berman, E., Biraud, S., Brandt, A.
